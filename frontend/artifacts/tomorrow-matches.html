@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 世界杯明日比赛分析</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --surface: #ffffff;
+      --surface-soft: #eef3f0;
+      --ink: #14201c;
+      --muted: #5c6964;
+      --line: #d7ded8;
+      --green: #0b6b4f;
+      --red: #c9332b;
+      --gold: #b88a1b;
+      --blue: #1f5d91;
+      --shadow: 0 18px 45px rgba(20, 32, 28, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 56px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 24px;
+    }
+
+    .hero,
+    .panel,
+    .match-card,
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 30px;
+      min-height: 260px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -90px -120px auto;
+      width: 340px;
+      height: 340px;
+      border: 28px solid rgba(11, 107, 79, 0.1);
+      border-radius: 50%;
+    }
+
+    .kicker {
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 14px 0 12px;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 26px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface-soft);
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .panel {
+      padding: 22px;
+    }
+
+    .panel h2,
+    .section-title {
+      margin: 0 0 14px;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .clock {
+      display: grid;
+      gap: 14px;
+    }
+
+    .clock-row {
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .clock-row:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .time {
+      color: var(--red);
+      font-size: 28px;
+      font-weight: 850;
+      line-height: 1;
+    }
+
+    .teams {
+      margin-top: 7px;
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .venue {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    section {
+      margin-top: 22px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+    }
+
+    th,
+    td {
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--surface-soft);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .matches {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .match-card {
+      padding: 22px;
+    }
+
+    .match-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+
+    .match-title {
+      margin: 0;
+      font-size: 23px;
+      line-height: 1.16;
+    }
+
+    .tag {
+      flex: 0 0 auto;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #fff6db;
+      color: #7b5700;
+      border: 1px solid #ead28a;
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .side {
+      padding: 14px;
+      background: var(--surface-soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-height: 136px;
+    }
+
+    .side h4,
+    .prediction h4 {
+      margin: 0 0 7px;
+      font-size: 14px;
+    }
+
+    .side p,
+    .prediction p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .prediction {
+      border-left: 4px solid var(--green);
+      padding: 14px 16px;
+      background: #eef8f3;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .risk {
+      border-left-color: var(--gold);
+      background: #fff9e8;
+    }
+
+    .notes {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .note {
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .note strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--blue);
+    }
+
+    .note p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      header,
+      .matches,
+      .notes {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: 230px;
+        padding: 24px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        padding: 18px 12px 38px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .compare {
+        grid-template-columns: 1fr;
+      }
+
+      .match-top {
+        flex-direction: column;
+      }
+
+      .pill {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="hero">
+        <div>
+          <div class="kicker">FIFA World Cup 2026 · Group A</div>
+          <h1>明天比赛赛前分析</h1>
+          <p class="lead">按北京时间 2026-06-12 统计，A 组将完成两场开幕日比赛。首轮的价值不仅是三分，也会直接影响 A 组头名路径与小组第三容错空间。</p>
+        </div>
+        <div class="meta">
+          <span class="pill">报告生成：2026-06-11 10:58 UTC</span>
+          <span class="pill">赛程口径：北京时间</span>
+          <span class="pill">状态：赛前</span>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <h2>比赛时钟</h2>
+        <div class="clock">
+          <div class="clock-row">
+            <div class="time">03:00</div>
+            <div class="teams">墨西哥 vs 南非</div>
+            <div class="venue">Mexico City Stadium</div>
+          </div>
+          <div class="clock-row">
+            <div class="time">10:00</div>
+            <div class="teams">韩国 vs 捷克</div>
+            <div class="venue">Guadalajara Stadium</div>
+          </div>
+        </div>
+      </aside>
+    </header>
+
+    <section>
+      <h2 class="section-title">小组赛排名</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>分组</th>
+              <th>球队</th>
+              <th>积分</th>
+              <th>净胜球</th>
+              <th>赛前判断</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>A 组</td>
+              <td>墨西哥</td>
+              <td>0</td>
+              <td>0</td>
+              <td>主场揭幕战，目标必须是三分。</td>
+            </tr>
+            <tr>
+              <td>A 组</td>
+              <td>南非</td>
+              <td>0</td>
+              <td>0</td>
+              <td>低预期出战，守住前 30 分钟是关键。</td>
+            </tr>
+            <tr>
+              <td>A 组</td>
+              <td>韩国</td>
+              <td>0</td>
+              <td>0</td>
+              <td>速度和转换效率决定主动权。</td>
+            </tr>
+            <tr>
+              <td>A 组</td>
+              <td>捷克</td>
+              <td>0</td>
+              <td>0</td>
+              <td>身体、定位球和禁区终结是胜负手。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">对阵分析</h2>
+      <div class="matches">
+        <article class="match-card">
+          <div class="match-top">
+            <h3 class="match-title">墨西哥 vs 南非</h3>
+            <span class="tag">倾向：墨西哥小胜</span>
+          </div>
+          <div class="compare">
+            <div class="side">
+              <h4>墨西哥优势</h4>
+              <p>主场环境、控场能力和大赛经验更成熟。中前场个人能力更强，适合通过边路压迫打开局面。</p>
+            </div>
+            <div class="side">
+              <h4>南非机会</h4>
+              <p>身体对抗、快速反击和定位球会制造风险。若前段时间不失球，比赛压力会转向东道主。</p>
+            </div>
+          </div>
+          <div class="prediction">
+            <h4>教练组判断</h4>
+            <p>墨西哥需要避免揭幕战急躁。若能先入球，比赛可能进入 2-0 或 2-1；若久攻不下，平局概率会明显上升。</p>
+          </div>
+        </article>
+
+        <article class="match-card">
+          <div class="match-top">
+            <h3 class="match-title">韩国 vs 捷克</h3>
+            <span class="tag">倾向：平局或韩国小胜</span>
+          </div>
+          <div class="compare">
+            <div class="side">
+              <h4>韩国优势</h4>
+              <p>Son Heung-min、Kim Min-jae、Hwang Hee-chan 带来速度、转换和欧洲比赛经验。</p>
+            </div>
+            <div class="side">
+              <h4>捷克机会</h4>
+              <p>Soucek、Schick 代表了捷克最直接的威胁：高球、二点球、定位球和禁区终结。</p>
+            </div>
+          </div>
+          <div class="prediction risk">
+            <h4>教练组判断</h4>
+            <p>这场更接近五五开。韩国要把比赛拉到速度和空间里，捷克则会努力把比赛变成高对抗与定位球节奏。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">出线影响</h2>
+      <div class="notes">
+        <div class="note">
+          <strong>A 组头名</strong>
+          <p>32 强阶段将对阵成绩较好的小组第三之一，路径主动权更高。</p>
+        </div>
+        <div class="note">
+          <strong>A 组第二</strong>
+          <p>将对阵 B 组第二，首轮拿分能显著降低末轮压力。</p>
+        </div>
+        <div class="note">
+          <strong>小组第三</strong>
+          <p>部分小组第三也可晋级，因此净胜球和少失球同样重要。</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      数据整理自当前目录 skill 输出结构与赛前分析内容；页面为静态 HTML，可直接在浏览器打开。
+    </footer>
+  </main>
+</body>
+</html>
