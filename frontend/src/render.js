@@ -1,9 +1,8 @@
 import { matches, reportMeta, standings } from "./matches.js";
 
-const baseUrl = import.meta.env.BASE_URL;
-const withBase = (path) => `${baseUrl}${path}`;
-const homeHref = () => withBase("index.html");
-const matchHref = (match) => withBase(match.href);
+const isMatchPage = () => Boolean(document.querySelector("#app")?.dataset.matchId);
+const homeHref = () => (isMatchPage() ? "../index.html" : "index.html");
+const matchHref = (match) => (isMatchPage() ? `./${match.href.split("/").pop()}` : match.href);
 const matchDates = [...new Set(matches.map((match) => match.date))];
 const defaultDate = matchDates.includes(reportMeta.dateLabel) ? reportMeta.dateLabel : matchDates[0];
 
