@@ -1,7 +1,0 @@
-[Unit]
-Description=Update World Cup 2026 scores and predictions
-
-[Service]
-Type=oneshot
-WorkingDirectory=/projects/world-cup-2026
-ExecStart=/projects/world-cup-2026/automation/update-worldcup.sh

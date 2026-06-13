@@ -1,3 +1,0 @@
-# Runs daily at 15:00 Asia/Shanghai.
-# This host uses UTC, so 15:00 Asia/Shanghai = 07:00 UTC.
-0 7 * * * /projects/world-cup-2026/automation/update-worldcup.sh

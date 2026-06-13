@@ -10,7 +10,11 @@ export default defineConfig({
         mexicoSouthAfrica: resolve(__dirname, "matches/mexico-south-africa.html"),
         southKoreaCzechia: resolve(__dirname, "matches/south-korea-czechia.html"),
         canadaBosniaHerzegovina: resolve(__dirname, "matches/canada-bosnia-herzegovina.html"),
-        usaParaguay: resolve(__dirname, "matches/usa-paraguay.html")
+        usaParaguay: resolve(__dirname, "matches/usa-paraguay.html"),
+        qatarSwitzerland: resolve(__dirname, "matches/qatar-switzerland.html"),
+        brazilMorocco: resolve(__dirname, "matches/brazil-morocco.html"),
+        haitiScotland: resolve(__dirname, "matches/haiti-scotland.html"),
+        australiaTurkiye: resolve(__dirname, "matches/australia-turkiye.html")
       }
     }
   }
