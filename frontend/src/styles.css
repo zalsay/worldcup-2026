@@ -358,6 +358,10 @@ h3 {
   padding: 18px;
 }
 
+.match-card[hidden] {
+  display: none;
+}
+
 .match-time {
   padding: 14px 12px;
   border-radius: 8px;
