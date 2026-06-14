@@ -1,5 +1,5 @@
 export const reportMeta = {
-  generatedAt: "2026-06-13 03:21 UTC",
+  generatedAt: "2026-06-14 03:09 UTC",
   dateLabel: "2026-06-13",
   timezone: "北京时间",
   group: "A / B / C / D 组"
@@ -12,12 +12,12 @@ export const standings = [
   { group: "A 组", team: "南非", points: 0, goalDiff: -2, note: "揭幕战失利且吃到红牌，后续容错降低。" },
   { group: "B 组", team: "加拿大", points: 1, goalDiff: 0, note: "1-1 战平波黑，Larin 替补进球拿到队史世界杯首分。" },
   { group: "B 组", team: "波黑", points: 1, goalDiff: 0, note: "客场先入球后被追平，低位防守拿到一分。" },
-  { group: "B 组", team: "瑞士", points: 0, goalDiff: 0, note: "今日对阵卡塔尔，整体经验和中场控制占优。" },
-  { group: "B 组", team: "卡塔尔", points: 0, goalDiff: 0, note: "今日对阵瑞士，需要靠纪律性和转换守住前段。" },
-  { group: "C 组", team: "巴西", points: 0, goalDiff: 0, note: "今日对阵摩洛哥，个人能力占优但不能轻视反击。" },
-  { group: "C 组", team: "摩洛哥", points: 0, goalDiff: 0, note: "今日对阵巴西，边路速度和防守韧性是拿分基础。" },
-  { group: "C 组", team: "苏格兰", points: 0, goalDiff: 0, note: "今日对阵海地，身体对抗和定位球优势明显。" },
-  { group: "C 组", team: "海地", points: 0, goalDiff: 0, note: "今日对阵苏格兰，反击效率决定能否制造冷门。" },
+  { group: "B 组", team: "瑞士", points: 1, goalDiff: 0, note: "1-1 战平卡塔尔，领先后补时阶段被扳平。" },
+  { group: "B 组", team: "卡塔尔", points: 1, goalDiff: 0, note: "补时阶段制造乌龙，1-1 逼平瑞士拿到关键一分。" },
+  { group: "C 组", team: "苏格兰", points: 3, goalDiff: 1, note: "1-0 击败海地，McGinn 进球兑现定位球和对抗优势。" },
+  { group: "C 组", team: "巴西", points: 1, goalDiff: 0, note: "1-1 战平摩洛哥，强点爆破有效但未能拿满三分。" },
+  { group: "C 组", team: "摩洛哥", points: 1, goalDiff: 0, note: "1-1 逼平巴西，防守韧性和反击质量得到验证。" },
+  { group: "C 组", team: "海地", points: 0, goalDiff: -1, note: "0-1 不敌苏格兰，反击有威胁但终结效率不足。" },
   { group: "D 组", team: "美国", points: 3, goalDiff: 3, note: "4-1 大胜巴拉圭，Balogun 梅开二度。" },
   { group: "D 组", team: "澳大利亚", points: 0, goalDiff: 0, note: "今日对阵土耳其，高空球和定位球是主要抓手。" },
   { group: "D 组", team: "土耳其", points: 0, goalDiff: 0, note: "今日对阵澳大利亚，中前场创造力占优。" },
@@ -205,9 +205,9 @@ export const matches = [
     time: "次日 03:00",
     venue: "Levi's Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "卡塔尔 1-1 瑞士",
+      updatedAt: "2026-06-14 03:09 UTC"
     },
     prediction: {
       tendency: "瑞士小胜",
@@ -248,9 +248,9 @@ export const matches = [
     time: "次日 06:00",
     venue: "MetLife Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "巴西 1-1 摩洛哥",
+      updatedAt: "2026-06-14 03:09 UTC"
     },
     prediction: {
       tendency: "巴西小胜",
@@ -291,9 +291,9 @@ export const matches = [
     time: "次日 09:00",
     venue: "Gillette Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "海地 0-1 苏格兰",
+      updatedAt: "2026-06-14 03:09 UTC"
     },
     prediction: {
       tendency: "苏格兰小胜",
