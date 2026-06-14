@@ -3,8 +3,18 @@ import { matches, reportMeta, standings } from "./matches.js";
 const isMatchPage = () => Boolean(document.querySelector("#app")?.dataset.matchId);
 const homeHref = () => (isMatchPage() ? "../index.html" : "index.html");
 const matchHref = (match) => (isMatchPage() ? `./${match.href.split("/").pop()}` : match.href);
-const matchDates = [...new Set(matches.map((match) => match.date))];
-const defaultDate = matchDates.includes(reportMeta.dateLabel) ? reportMeta.dateLabel : matchDates[0];
+const addDays = (date, days) => {
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() + days);
+  return value.toISOString().slice(0, 10);
+};
+const beijingDate = (match) => (match.time.startsWith("次日") ? addDays(match.date, 1) : match.date);
+const allMatchDates = [...new Set(matches.map(beijingDate))].sort();
+const todayDate = allMatchDates.at(-1);
+const visibleDateWindow = new Set([addDays(todayDate, -2), addDays(todayDate, -1), todayDate]);
+const dateWindowMatches = matches.filter((match) => visibleDateWindow.has(beijingDate(match)));
+const matchDates = allMatchDates.filter((date) => visibleDateWindow.has(date));
+const defaultDate = matchDates.includes(todayDate) ? todayDate : matchDates.at(-1);
 
 const icons = {
   calendar: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2v4M16 2v4M3 10h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>`,
@@ -19,7 +29,7 @@ const icons = {
 };
 
 export function renderHome(app) {
-  const visibleMatches = matches.filter((match) => match.date === defaultDate);
+  const visibleMatches = matches.filter((match) => beijingDate(match) === defaultDate);
 
   app.innerHTML = `
     ${siteHeader("home")}
@@ -32,7 +42,7 @@ export function renderHome(app) {
           </div>
           ${dateFilter()}
           <div class="match-list">
-            ${matches.map(matchCard).join("")}
+            ${dateWindowMatches.map(matchCard).join("")}
           </div>
         </div>
         <aside class="panel">
@@ -84,7 +94,7 @@ export function renderMatchPage(app, match) {
       </section>
 
       <section class="fact-row" aria-label="比赛信息">
-        ${factItem(icons.calendar, "日期", `${match.date}（${reportMeta.timezone}）`)}
+        ${factItem(icons.calendar, "日期", `${beijingDate(match)}（${reportMeta.timezone}）`)}
         ${factItem(icons.clock, "时间", match.time)}
         ${factItem(icons.map, "地点", match.venue)}
       </section>
@@ -137,9 +147,9 @@ function siteHeader(page = "home") {
         <a href="${homeHref()}">首页</a>
         ${matchDates.map((date) => `
           <div class="menu-group">
-            <span>${date === reportMeta.dateLabel ? "当天" : date}</span>
-            ${matches
-              .filter((match) => match.date === date)
+            <span>${date === todayDate ? "当天" : date}</span>
+            ${dateWindowMatches
+              .filter((match) => beijingDate(match) === date)
               .map((match) => `<a href="${matchHref(match)}">${match.title}</a>`)
               .join("")}
           </div>
@@ -150,10 +160,12 @@ function siteHeader(page = "home") {
 }
 
 function matchCard(match) {
+  const displayDate = beijingDate(match);
+
   return `
-    <article class="match-card" data-match-date="${match.date}"${match.date === defaultDate ? "" : " hidden"}>
+    <article class="match-card" data-match-date="${displayDate}"${displayDate === defaultDate ? "" : " hidden"}>
       <div class="match-time">
-        <span>${match.date}</span>
+        <span>${displayDate}</span>
         <strong>${match.time}</strong>
       </div>
       <div class="match-copy">
@@ -177,7 +189,7 @@ function dateFilter() {
     <div class="date-filter" aria-label="按日期筛选比赛">
       ${matchDates.map((date) => `
         <button type="button" class="date-filter-button${date === defaultDate ? " is-active" : ""}" data-date="${date}">
-          ${date === reportMeta.dateLabel ? "当天" : date}
+          ${date === todayDate ? "当天" : date}
         </button>
       `).join("")}
     </div>

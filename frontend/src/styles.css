@@ -278,12 +278,31 @@ h3 {
 
 .date-filter {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
+  max-width: 100%;
   margin-bottom: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.date-filter::-webkit-scrollbar {
+  height: 6px;
+}
+
+.date-filter::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--line);
+}
+
+.date-filter::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .date-filter-button {
+  flex: 0 0 auto;
   min-height: 34px;
   padding: 7px 12px;
   border: 1px solid var(--line);
@@ -662,8 +681,6 @@ ul {
   }
 
   .date-filter {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 6px;
     margin-bottom: 8px;
   }
