@@ -1,8 +1,8 @@
 export const reportMeta = {
-  generatedAt: "2026-06-14 03:09 UTC",
-  dateLabel: "2026-06-14",
+  generatedAt: "2026-06-15 08:39 UTC",
+  dateLabel: "2026-06-15",
   timezone: "北京时间",
-  group: "A / B / C / D / E / F 组"
+  group: "A / B / C / D / E / F / G / H 组"
 };
 
 export const standings = [
@@ -19,17 +19,25 @@ export const standings = [
   { group: "C 组", team: "摩洛哥", points: 1, goalDiff: 0, note: "1-1 逼平巴西，防守韧性和反击质量得到验证。" },
   { group: "C 组", team: "海地", points: 0, goalDiff: -1, note: "0-1 不敌苏格兰，反击有威胁但终结效率不足。" },
   { group: "D 组", team: "美国", points: 3, goalDiff: 3, note: "4-1 大胜巴拉圭，Balogun 梅开二度。" },
-  { group: "D 组", team: "澳大利亚", points: 0, goalDiff: 0, note: "今日对阵土耳其，高空球和定位球是主要抓手。" },
-  { group: "D 组", team: "土耳其", points: 0, goalDiff: 0, note: "今日对阵澳大利亚，中前场创造力占优。" },
+  { group: "D 组", team: "澳大利亚", points: 3, goalDiff: 2, note: "2-0 击败土耳其，防守组织和反击效率都超过预期。" },
+  { group: "D 组", team: "土耳其", points: 0, goalDiff: -2, note: "0-2 不敌澳大利亚，中前场创造力未能转化为得分。" },
   { group: "D 组", team: "巴拉圭", points: 0, goalDiff: -3, note: "1-4 不敌美国，防线被持续冲击。" },
-  { group: "E 组", team: "德国", points: 0, goalDiff: 0, note: "北京时间 6 月 15 日对阵库拉索，控球和前场压迫优势明显。" },
-  { group: "E 组", team: "库拉索", points: 0, goalDiff: 0, note: "世界杯首秀对阵德国，防线密度和反击效率是拿分基础。" },
-  { group: "E 组", team: "科特迪瓦", points: 0, goalDiff: 0, note: "北京时间 6 月 15 日对阵厄瓜多尔，身体对抗和边路推进是关键。" },
-  { group: "E 组", team: "厄瓜多尔", points: 0, goalDiff: 0, note: "高强度压迫和中前场机动性有望压缩科特迪瓦出球空间。" },
-  { group: "F 组", team: "荷兰", points: 0, goalDiff: 0, note: "北京时间 6 月 15 日对阵日本，阵容厚度和中后场组织占优。" },
-  { group: "F 组", team: "日本", points: 0, goalDiff: 0, note: "面对荷兰需要用高节奏传跑和边路轮转换取空间。" },
-  { group: "F 组", team: "瑞典", points: 0, goalDiff: 0, note: "北京时间 6 月 15 日对阵突尼斯，双前锋质量和定位球威胁突出。" },
-  { group: "F 组", team: "突尼斯", points: 0, goalDiff: 0, note: "防守纪律强，但进攻端需要提高转换后的第一脚质量。" }
+  { group: "E 组", team: "德国", points: 3, goalDiff: 6, note: "7-1 大胜库拉索，进攻火力和定位球优势全面释放。" },
+  { group: "E 组", team: "科特迪瓦", points: 3, goalDiff: 1, note: "1-0 击败厄瓜多尔，Amad Diallo 终场前完成制胜。" },
+  { group: "E 组", team: "厄瓜多尔", points: 0, goalDiff: -1, note: "0-1 不敌科特迪瓦，上半场机会不少但终结不足。" },
+  { group: "E 组", team: "库拉索", points: 0, goalDiff: -6, note: "1-7 不敌德国，世界杯首球有价值但防线承压过大。" },
+  { group: "F 组", team: "瑞典", points: 3, goalDiff: 4, note: "5-1 大胜突尼斯，Isak、Gyokeres 和 Ayari 状态出色。" },
+  { group: "F 组", team: "荷兰", points: 1, goalDiff: 0, note: "2-2 战平日本，两度领先后被追平，防线稳定性需提升。" },
+  { group: "F 组", team: "日本", points: 1, goalDiff: 0, note: "2-2 逼平荷兰，替补和后段压迫展现韧性。" },
+  { group: "F 组", team: "突尼斯", points: 0, goalDiff: -4, note: "1-5 不敌瑞典，防线被双前锋和远射连续打穿。" },
+  { group: "G 组", team: "比利时", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵埃及，进攻天赋占优但要控制 Salah 反击。" },
+  { group: "G 组", team: "埃及", points: 0, goalDiff: 0, note: "面对比利时需要低位纪律和 Salah 的转换效率。" },
+  { group: "G 组", team: "伊朗", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵新西兰，防守结构和 Taremi 终结是关键。" },
+  { group: "G 组", team: "新西兰", points: 0, goalDiff: 0, note: "面对伊朗需要保护禁区并提高长传后的二点球质量。" },
+  { group: "H 组", team: "西班牙", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵佛得角，控球和边路压迫优势明显。" },
+  { group: "H 组", team: "佛得角", points: 0, goalDiff: 0, note: "世界杯首秀挑战西班牙，首要目标是压缩肋部空间。" },
+  { group: "H 组", team: "乌拉圭", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵沙特，高强度压迫和中场对抗是优势。" },
+  { group: "H 组", team: "沙特", points: 0, goalDiff: 0, note: "面对乌拉圭需要控制失误，依靠 Al-Dawsari 的转换制造威胁。" }
 ];
 
 export const matches = [
@@ -342,9 +350,9 @@ export const matches = [
     time: "次日 12:00",
     venue: "BC Place",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "澳大利亚 2-0 土耳其",
+      updatedAt: "2026-06-15 08:39 UTC"
     },
     prediction: {
       tendency: "平局或土耳其小胜",
@@ -385,9 +393,9 @@ export const matches = [
     time: "次日 01:00",
     venue: "Houston Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "德国 7-1 库拉索",
+      updatedAt: "2026-06-15 08:39 UTC"
     },
     prediction: {
       tendency: "德国大胜",
@@ -428,9 +436,9 @@ export const matches = [
     time: "次日 04:00",
     venue: "Dallas Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "荷兰 2-2 日本",
+      updatedAt: "2026-06-15 08:39 UTC"
     },
     prediction: {
       tendency: "荷兰小胜或平局",
@@ -471,9 +479,9 @@ export const matches = [
     time: "次日 07:00",
     venue: "Philadelphia Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "科特迪瓦 1-0 厄瓜多尔",
+      updatedAt: "2026-06-15 08:39 UTC"
     },
     prediction: {
       tendency: "平局或厄瓜多尔小胜",
@@ -514,9 +522,9 @@ export const matches = [
     time: "次日 10:00",
     venue: "Monterrey Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "瑞典 5-1 突尼斯",
+      updatedAt: "2026-06-15 08:39 UTC"
     },
     prediction: {
       tendency: "瑞典小胜",
@@ -546,6 +554,178 @@ export const matches = [
       { name: "Viktor Gyokeres", team: "瑞典", role: "前锋", note: "冲击力和背身能力能消耗突尼斯中卫。" },
       { name: "Ellyes Skhiri", team: "突尼斯", role: "中场", note: "中场保护和二点球控制关键。" },
       { name: "Hannibal Mejbri", team: "突尼斯", role: "中场", note: "推进和前场压迫需要提供变化。" }
+    ]
+  },
+  {
+    id: "spain-cape-verde",
+    href: "matches/spain-cape-verde.html",
+    title: "西班牙 vs 佛得角",
+    group: "H 组",
+    date: "2026-06-15",
+    time: "次日 00:00",
+    venue: "Atlanta Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "西班牙大胜",
+      scoreLean: "3-0 / 3-1",
+      recordedAt: "2026-06-15 08:39 UTC"
+    },
+    headline: "西班牙控球和边路压迫优势明显，佛得角要守住肋部空间。",
+    teams: [
+      {
+        name: "西班牙",
+        label: "控球压制",
+        summary: "西班牙会用中场传控、边路一对一和高位反抢持续压低佛得角防线。",
+        strengths: ["控球质量", "边路突破", "高位反抢", "阵容深度"],
+        risks: ["久攻不下", "防反身后", "过度压上后的空间"]
+      },
+      {
+        name: "佛得角",
+        label: "首秀韧性",
+        summary: "佛得角需要保持中路密度，用快速纵向球寻找西班牙边后卫身后。",
+        strengths: ["团队斗志", "反击速度", "身体对抗"],
+        risks: ["控球时间不足", "肋部防守", "禁区持续受压"]
+      }
+    ],
+    coachView: "西班牙只要前 30 分钟能打开局面，比赛会向多球胜利倾斜。佛得角若能拖住比分，后段定位球会是主要机会。",
+    keyPlayers: [
+      { name: "Pedri", team: "西班牙", role: "中场", note: "控制节奏和肋部传球的核心。" },
+      { name: "Nico Williams", team: "西班牙", role: "边锋", note: "边路单点突破会制造最大压力。" },
+      { name: "Lamine Yamal", team: "西班牙", role: "边锋", note: "替补登场后的创造力能改变比赛节奏。" },
+      { name: "Ryan Mendes", team: "佛得角", role: "攻击手", note: "反击第一脚和定位球处理关键。" }
+    ]
+  },
+  {
+    id: "belgium-egypt",
+    href: "matches/belgium-egypt.html",
+    title: "比利时 vs 埃及",
+    group: "G 组",
+    date: "2026-06-15",
+    time: "次日 03:00",
+    venue: "Seattle Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "比利时小胜或平局",
+      scoreLean: "2-1 / 1-1",
+      recordedAt: "2026-06-15 08:39 UTC"
+    },
+    headline: "比利时进攻点更多，但埃及拥有能改变比赛的反击核心。",
+    teams: [
+      {
+        name: "比利时",
+        label: "前场天赋",
+        summary: "比利时会依赖 De Bruyne 的调度、Doku 的突破和 Lukaku 的支点终结来打穿埃及低位。",
+        strengths: ["前场创造力", "边路突破", "禁区支点", "比赛经验"],
+        risks: ["年轻防线", "被反击打身后", "转换保护"]
+      },
+      {
+        name: "埃及",
+        label: "反击威胁",
+        summary: "埃及需要把比赛压成低比分，并通过 Salah 和 Marmoush 的速度攻击比利时防线身后。",
+        strengths: ["Salah 单点", "快速反击", "低位纪律", "门前韧性"],
+        risks: ["控球不足", "中场被压制", "边路防守压力"]
+      }
+    ],
+    coachView: "比利时纸面更强，但不能给 Salah 太多纵向空间。若埃及先进球，这场会立刻变成高风险攻坚战。",
+    keyPlayers: [
+      { name: "Kevin De Bruyne", team: "比利时", role: "中场", note: "最后一传和节奏变化核心。" },
+      { name: "Jeremy Doku", team: "比利时", role: "边锋", note: "一对一突破能撕开低位防线。" },
+      { name: "Mohamed Salah", team: "埃及", role: "边锋", note: "反击终结和弱侧跑位是最大威胁。" },
+      { name: "Omar Marmoush", team: "埃及", role: "前锋", note: "纵深冲刺会考验比利时中卫转身。" }
+    ]
+  },
+  {
+    id: "saudi-arabia-uruguay",
+    href: "matches/saudi-arabia-uruguay.html",
+    title: "沙特 vs 乌拉圭",
+    group: "H 组",
+    date: "2026-06-15",
+    time: "次日 06:00",
+    venue: "Miami Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "乌拉圭小胜",
+      scoreLean: "0-2 / 1-2",
+      recordedAt: "2026-06-15 08:39 UTC"
+    },
+    headline: "乌拉圭强度和中场硬度占优，沙特需要减少后场失误。",
+    teams: [
+      {
+        name: "沙特",
+        label: "快速转换",
+        summary: "沙特会依赖边路推进和 Al-Dawsari 的个人能力寻找反击，但出球失误会被乌拉圭放大。",
+        strengths: ["反击速度", "边路冲刺", "团队执行", "定位球变化"],
+        risks: ["身体对抗", "后场失误", "禁区保护"]
+      },
+      {
+        name: "乌拉圭",
+        label: "高压强度",
+        summary: "乌拉圭的压迫、二点球和中前场冲击更强，适合把比赛推向高对抗节奏。",
+        strengths: ["高位压迫", "中场对抗", "禁区终结", "比赛强度"],
+        risks: ["压上身后", "情绪犯规", "面对低位时效率"]
+      }
+    ],
+    coachView: "乌拉圭优势在强度和抢回球后的第一波冲击。沙特若能撑过前段压迫，比赛仍有机会进入一球胜负。",
+    keyPlayers: [
+      { name: "Salem Al-Dawsari", team: "沙特", role: "边锋", note: "反击推进和内切射门核心。" },
+      { name: "Firas Al-Buraikan", team: "沙特", role: "前锋", note: "需要承担前场支点和二点球争抢。" },
+      { name: "Federico Valverde", team: "乌拉圭", role: "中场", note: "压迫覆盖和远射威胁会改变节奏。" },
+      { name: "Darwin Nunez", team: "乌拉圭", role: "前锋", note: "纵深冲刺和禁区冲击是主要终结点。" }
+    ]
+  },
+  {
+    id: "iran-new-zealand",
+    href: "matches/iran-new-zealand.html",
+    title: "伊朗 vs 新西兰",
+    group: "G 组",
+    date: "2026-06-15",
+    time: "次日 09:00",
+    venue: "Los Angeles Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "伊朗小胜",
+      scoreLean: "1-0 / 2-1",
+      recordedAt: "2026-06-15 08:39 UTC"
+    },
+    headline: "伊朗防守结构更成熟，新西兰要靠高点和二点球制造机会。",
+    teams: [
+      {
+        name: "伊朗",
+        label: "稳守终结",
+        summary: "伊朗更擅长低位防守和快速推进，Taremi 的跑位和终结会决定比赛上限。",
+        strengths: ["防守纪律", "反击效率", "禁区终结", "大赛经验"],
+        risks: ["阵地战创造力", "边路回追", "被高球冲击"]
+      },
+      {
+        name: "新西兰",
+        label: "高点冲击",
+        summary: "新西兰会依赖 Chris Wood 的支点和高空球，争取把比赛拖进定位球和二点球节奏。",
+        strengths: ["空中球", "定位球", "身体对抗", "门前拼抢"],
+        risks: ["控球质量", "防线速度", "被反击打身后"]
+      }
+    ],
+    coachView: "伊朗更有比赛控制力，但新西兰的高空球会持续制造麻烦。若伊朗先入球，比赛会向 1-0 或 2-1 靠近。",
+    keyPlayers: [
+      { name: "Mehdi Taremi", team: "伊朗", role: "前锋", note: "无球跑位和禁区终结是伊朗最大优势。" },
+      { name: "Sardar Azmoun", team: "伊朗", role: "前锋", note: "支点和第二点处理能连接反击。" },
+      { name: "Chris Wood", team: "新西兰", role: "前锋", note: "空中球和禁区终结核心。" },
+      { name: "Liberato Cacace", team: "新西兰", role: "边卫", note: "左路推进和传中质量关键。" }
     ]
   }
 ];
