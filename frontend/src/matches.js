@@ -1,8 +1,8 @@
 export const reportMeta = {
-  generatedAt: "2026-06-15 08:39 UTC",
-  dateLabel: "2026-06-15",
+  generatedAt: "2026-06-18 00:43 UTC",
+  dateLabel: "2026-06-18",
   timezone: "北京时间",
-  group: "A / B / C / D / E / F / G / H 组"
+  group: "A / B / C / D / E / F / G / H / I / J / K / L 组"
 };
 
 export const standings = [
@@ -30,14 +30,30 @@ export const standings = [
   { group: "F 组", team: "荷兰", points: 1, goalDiff: 0, note: "2-2 战平日本，两度领先后被追平，防线稳定性需提升。" },
   { group: "F 组", team: "日本", points: 1, goalDiff: 0, note: "2-2 逼平荷兰，替补和后段压迫展现韧性。" },
   { group: "F 组", team: "突尼斯", points: 0, goalDiff: -4, note: "1-5 不敌瑞典，防线被双前锋和远射连续打穿。" },
-  { group: "G 组", team: "比利时", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵埃及，进攻天赋占优但要控制 Salah 反击。" },
-  { group: "G 组", team: "埃及", points: 0, goalDiff: 0, note: "面对比利时需要低位纪律和 Salah 的转换效率。" },
-  { group: "G 组", team: "伊朗", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵新西兰，防守结构和 Taremi 终结是关键。" },
-  { group: "G 组", team: "新西兰", points: 0, goalDiff: 0, note: "面对伊朗需要保护禁区并提高长传后的二点球质量。" },
-  { group: "H 组", team: "西班牙", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵佛得角，控球和边路压迫优势明显。" },
-  { group: "H 组", team: "佛得角", points: 0, goalDiff: 0, note: "世界杯首秀挑战西班牙，首要目标是压缩肋部空间。" },
-  { group: "H 组", team: "乌拉圭", points: 0, goalDiff: 0, note: "北京时间 6 月 16 日对阵沙特，高强度压迫和中场对抗是优势。" },
-  { group: "H 组", team: "沙特", points: 0, goalDiff: 0, note: "面对乌拉圭需要控制失误，依靠 Al-Dawsari 的转换制造威胁。" }
+  { group: "G 组", team: "伊朗", points: 1, goalDiff: 0, note: "2-2 战平新西兰，Taremi 与 Azmoun 的前场牵制仍是主要支点。" },
+  { group: "G 组", team: "新西兰", points: 1, goalDiff: 0, note: "2-2 逼平伊朗，高点与二点球持续制造压力。" },
+  { group: "G 组", team: "比利时", points: 1, goalDiff: 0, note: "1-1 战平埃及，领先后被 Salah 带动的反击拖住。" },
+  { group: "G 组", team: "埃及", points: 1, goalDiff: 0, note: "1-1 逼平比利时，低位纪律和反击效率拿到关键一分。" },
+  { group: "H 组", team: "沙特", points: 1, goalDiff: 0, note: "1-1 战平乌拉圭，后段韧性和转换质量超过预期。" },
+  { group: "H 组", team: "乌拉圭", points: 1, goalDiff: 0, note: "1-1 战平沙特，强度占优但没有把领先转化为三分。" },
+  { group: "H 组", team: "西班牙", points: 1, goalDiff: 0, note: "0-0 被佛得角逼平，控球优势未能转化为进球。" },
+  { group: "H 组", team: "佛得角", points: 1, goalDiff: 0, note: "世界杯首秀 0-0 逼平西班牙，防线密度和门前韧性突出。" },
+  { group: "I 组", team: "挪威", points: 3, goalDiff: 3, note: "4-1 击败伊拉克，锋线效率和冲刺威胁全面释放。" },
+  { group: "I 组", team: "法国", points: 3, goalDiff: 2, note: "3-1 击败塞内加尔，Mbappe 主导关键进攻回合。" },
+  { group: "I 组", team: "塞内加尔", points: 0, goalDiff: -2, note: "1-3 不敌法国，对抗有强度但防线被持续拉开。" },
+  { group: "I 组", team: "伊拉克", points: 0, goalDiff: -3, note: "1-4 不敌挪威，高位身后空间被反复利用。" },
+  { group: "J 组", team: "阿根廷", points: 3, goalDiff: 3, note: "3-0 击败阿尔及利亚，卫冕冠军首战控制力稳定。" },
+  { group: "J 组", team: "奥地利", points: 3, goalDiff: 2, note: "3-1 击败约旦，中场压迫和前场转化效率占优。" },
+  { group: "J 组", team: "约旦", points: 0, goalDiff: -2, note: "1-3 不敌奥地利，首次世界杯亮相仍展现反击韧性。" },
+  { group: "J 组", team: "阿尔及利亚", points: 0, goalDiff: -3, note: "0-3 不敌阿根廷，后续需要提高出球稳定性。" },
+  { group: "K 组", team: "葡萄牙", points: 0, goalDiff: 0, note: "对阵刚果民主共和国已结束，终场比分待核实后再计入积分。" },
+  { group: "K 组", team: "刚果民主共和国", points: 0, goalDiff: 0, note: "首战对葡萄牙的比分待核实，暂不更新积分。" },
+  { group: "K 组", team: "乌兹别克斯坦", points: 0, goalDiff: 0, note: "北京时间 6 月 18 日对阵哥伦比亚，首秀重点是中路保护和反击质量。" },
+  { group: "K 组", team: "哥伦比亚", points: 0, goalDiff: 0, note: "面对乌兹别克斯坦需要利用 Luis Diaz 的边路爆点打开局面。" },
+  { group: "L 组", team: "英格兰", points: 0, goalDiff: 0, note: "对阵克罗地亚已结束，终场比分待核实后再计入积分。" },
+  { group: "L 组", team: "克罗地亚", points: 0, goalDiff: 0, note: "首战对英格兰的比分待核实，暂不更新积分。" },
+  { group: "L 组", team: "加纳", points: 0, goalDiff: 0, note: "对巴拿马进行中，实时比分暂为 0-0。" },
+  { group: "L 组", team: "巴拿马", points: 0, goalDiff: 0, note: "对加纳进行中，低位防守和定位球是主要拿分路径。" }
 ];
 
 export const matches = [
@@ -565,9 +581,9 @@ export const matches = [
     time: "次日 00:00",
     venue: "Atlanta Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "西班牙 0-0 佛得角",
+      updatedAt: "2026-06-18 00:43 UTC"
     },
     prediction: {
       tendency: "西班牙大胜",
@@ -608,9 +624,9 @@ export const matches = [
     time: "次日 03:00",
     venue: "Seattle Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "比利时 1-1 埃及",
+      updatedAt: "2026-06-18 00:43 UTC"
     },
     prediction: {
       tendency: "比利时小胜或平局",
@@ -651,9 +667,9 @@ export const matches = [
     time: "次日 06:00",
     venue: "Miami Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "沙特 1-1 乌拉圭",
+      updatedAt: "2026-06-18 00:43 UTC"
     },
     prediction: {
       tendency: "乌拉圭小胜",
@@ -694,9 +710,9 @@ export const matches = [
     time: "次日 09:00",
     venue: "Los Angeles Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "伊朗 2-2 新西兰",
+      updatedAt: "2026-06-18 00:43 UTC"
     },
     prediction: {
       tendency: "伊朗小胜",
@@ -726,6 +742,350 @@ export const matches = [
       { name: "Sardar Azmoun", team: "伊朗", role: "前锋", note: "支点和第二点处理能连接反击。" },
       { name: "Chris Wood", team: "新西兰", role: "前锋", note: "空中球和禁区终结核心。" },
       { name: "Liberato Cacace", team: "新西兰", role: "边卫", note: "左路推进和传中质量关键。" }
+    ]
+  },
+  {
+    id: "france-senegal",
+    href: "matches/france-senegal.html",
+    title: "法国 vs 塞内加尔",
+    group: "I 组",
+    date: "2026-06-16",
+    time: "次日 03:00",
+    venue: "MetLife Stadium",
+    actual: {
+      status: "已结束",
+      score: "法国 3-1 塞内加尔",
+      updatedAt: "2026-06-18 00:43 UTC"
+    },
+    prediction: {
+      tendency: "法国小胜",
+      scoreLean: "2-1 / 3-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "法国前场个人能力更强，塞内加尔会用强对抗拖慢节奏。",
+    teams: [
+      {
+        name: "法国",
+        label: "强点爆破",
+        summary: "法国拥有更高的前场上限，Mbappe、Griezmann 与中场推进能持续制造禁区压力。",
+        strengths: ["前场速度", "阵容深度", "转换冲击", "大赛经验"],
+        risks: ["中场保护", "领先后的专注度", "被身体对抗打乱节奏"]
+      },
+      {
+        name: "塞内加尔",
+        label: "强度反击",
+        summary: "塞内加尔身体和冲刺能力突出，若能把比赛拉进对抗节奏，会给法国防线制造麻烦。",
+        strengths: ["身体对抗", "边路速度", "定位球", "防守韧性"],
+        risks: ["控球稳定性", "防线身后", "被连续压制后的出球"]
+      }
+    ],
+    coachView: "法国胜面更大，但这不是低强度比赛。若法国能先入球，比赛会向 2-1 或 3-1 倾斜；塞内加尔需要把比分拖到后段。",
+    keyPlayers: [
+      { name: "Kylian Mbappe", team: "法国", role: "前锋", note: "速度和禁区终结是最大胜负手。" },
+      { name: "Antoine Griezmann", team: "法国", role: "中场", note: "串联和定位球处理会影响节奏。" },
+      { name: "Sadio Mane", team: "塞内加尔", role: "前锋", note: "转换进攻中的第一威胁。" },
+      { name: "Kalidou Koulibaly", team: "塞内加尔", role: "中卫", note: "防线对抗和禁区保护核心。" }
+    ]
+  },
+  {
+    id: "norway-iraq",
+    href: "matches/norway-iraq.html",
+    title: "伊拉克 vs 挪威",
+    group: "I 组",
+    date: "2026-06-16",
+    time: "次日 06:00",
+    venue: "Kansas City Stadium",
+    actual: {
+      status: "已结束",
+      score: "伊拉克 1-4 挪威",
+      updatedAt: "2026-06-18 00:43 UTC"
+    },
+    prediction: {
+      tendency: "挪威取胜",
+      scoreLean: "0-2 / 1-3",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "挪威锋线冲击力明显，伊拉克需要先守住禁区正面。",
+    teams: [
+      {
+        name: "伊拉克",
+        label: "低位韧性",
+        summary: "伊拉克需要依靠紧凑防守和快速长传寻找机会，避免被挪威在禁区前连续起脚。",
+        strengths: ["防守纪律", "身体对抗", "反击速度"],
+        risks: ["防线身后", "控球质量", "被早早丢球打乱计划"]
+      },
+      {
+        name: "挪威",
+        label: "锋线冲击",
+        summary: "挪威拥有 Haaland 和 Odegaard 的核心连线，适合用纵深跑位和二点球持续压迫。",
+        strengths: ["禁区终结", "直塞质量", "空中球", "转换效率"],
+        risks: ["阵地战耐心", "边路回防", "被低位消耗"]
+      }
+    ],
+    coachView: "挪威的进攻质量更高，关键是别让比赛陷入单调传中。伊拉克若前 30 分钟守住，仍有机会通过定位球制造悬念。",
+    keyPlayers: [
+      { name: "Aymen Hussein", team: "伊拉克", role: "前锋", note: "支点和定位球进攻核心。" },
+      { name: "Zidane Iqbal", team: "伊拉克", role: "中场", note: "反击第一脚和推进质量关键。" },
+      { name: "Erling Haaland", team: "挪威", role: "前锋", note: "禁区终结和牵制能力决定上限。" },
+      { name: "Martin Odegaard", team: "挪威", role: "中场", note: "最后一传和节奏控制核心。" }
+    ]
+  },
+  {
+    id: "argentina-algeria",
+    href: "matches/argentina-algeria.html",
+    title: "阿根廷 vs 阿尔及利亚",
+    group: "J 组",
+    date: "2026-06-16",
+    time: "次日 09:00",
+    venue: "Houston Stadium",
+    actual: {
+      status: "已结束",
+      score: "阿根廷 3-0 阿尔及利亚",
+      updatedAt: "2026-06-18 00:43 UTC"
+    },
+    prediction: {
+      tendency: "阿根廷取胜",
+      scoreLean: "2-0 / 3-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "卫冕冠军整体控制力更强，阿尔及利亚要靠边路反击争取空间。",
+    teams: [
+      {
+        name: "阿根廷",
+        label: "成熟控场",
+        summary: "阿根廷的中场控制、前场小组合和大赛经验更成熟，适合用耐心控球逐步压低对手。",
+        strengths: ["中场控制", "前场串联", "定位球", "大赛经验"],
+        risks: ["节奏过慢", "防反身后", "过度依赖核心"]
+      },
+      {
+        name: "阿尔及利亚",
+        label: "边路反击",
+        summary: "阿尔及利亚需要通过 Mahrez 的持球和弱侧冲刺制造机会，尽量把比赛拖进低比分。",
+        strengths: ["边路技术", "反击推进", "定位球变化"],
+        risks: ["中场被压制", "防线横移", "禁区保护"]
+      }
+    ],
+    coachView: "阿根廷更稳，但必须避免在控球优势下放慢到无威胁节奏。阿尔及利亚若能先限制梅西接球区域，比赛会更接近。",
+    keyPlayers: [
+      { name: "Lionel Messi", team: "阿根廷", role: "前锋", note: "最后一传和定位球仍是关键。" },
+      { name: "Julian Alvarez", team: "阿根廷", role: "前锋", note: "前场压迫和无球跑动能拉开空间。" },
+      { name: "Enzo Fernandez", team: "阿根廷", role: "中场", note: "控制二点球和转换方向。" },
+      { name: "Riyad Mahrez", team: "阿尔及利亚", role: "边锋", note: "右路持球和内切是主要威胁。" }
+    ]
+  },
+  {
+    id: "austria-jordan",
+    href: "matches/austria-jordan.html",
+    title: "奥地利 vs 约旦",
+    group: "J 组",
+    date: "2026-06-16",
+    time: "次日 12:00",
+    venue: "Kansas City Stadium",
+    actual: {
+      status: "已结束",
+      score: "奥地利 3-1 约旦",
+      updatedAt: "2026-06-18 00:43 UTC"
+    },
+    prediction: {
+      tendency: "奥地利小胜",
+      scoreLean: "2-0 / 2-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "奥地利压迫体系更成熟，约旦首秀需要用反击保持威胁。",
+    teams: [
+      {
+        name: "奥地利",
+        label: "高位压迫",
+        summary: "奥地利中前场压迫和纵向推进更稳定，适合通过抢回球后的第一波进攻制造机会。",
+        strengths: ["压迫强度", "中场覆盖", "远射", "定位球"],
+        risks: ["压上身后", "进攻效率", "情绪犯规"]
+      },
+      {
+        name: "约旦",
+        label: "首秀冲击",
+        summary: "约旦需要保持防线紧凑，并利用 Al-Taamari 的速度和个人能力打奥地利身后。",
+        strengths: ["转换速度", "团队纪律", "前场单点"],
+        risks: ["身体对抗", "控球压力", "定位球防守"]
+      }
+    ],
+    coachView: "奥地利整体性更强，若压迫成功率够高，比赛会向两球差发展。约旦需要守住开局并减少中路丢球。",
+    keyPlayers: [
+      { name: "Marcel Sabitzer", team: "奥地利", role: "中场", note: "远射和前插是重要得分手段。" },
+      { name: "Konrad Laimer", team: "奥地利", role: "中场", note: "压迫覆盖和二点球控制关键。" },
+      { name: "Marko Arnautovic", team: "奥地利", role: "前锋", note: "禁区支点和经验价值明显。" },
+      { name: "Musa Al-Taamari", team: "约旦", role: "边锋", note: "反击推进和一对一突破核心。" }
+    ]
+  },
+  {
+    id: "portugal-dr-congo",
+    href: "matches/portugal-dr-congo.html",
+    title: "葡萄牙 vs 刚果民主共和国",
+    group: "K 组",
+    date: "2026-06-17",
+    time: "次日 01:00",
+    venue: "BMO Field",
+    actual: {
+      status: "已结束",
+      score: "待核实",
+      updatedAt: "赛程源显示已结束，终场比分待核实"
+    },
+    prediction: {
+      tendency: "葡萄牙取胜",
+      scoreLean: "2-0 / 3-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "葡萄牙控场和前场质量占优，刚果民主共和国要靠身体和反击制造混乱。",
+    teams: [
+      {
+        name: "葡萄牙",
+        label: "技术控场",
+        summary: "葡萄牙阵容厚度和前场创造力明显占优，Bruno Fernandes 与 Bernardo Silva 能稳定控制节奏。",
+        strengths: ["中场创造力", "边路推进", "定位球", "阵容深度"],
+        risks: ["转换防守", "老将体能管理", "久攻不下"]
+      },
+      {
+        name: "刚果民主共和国",
+        label: "身体反击",
+        summary: "刚果民主共和国会依赖身体对抗、边路冲刺和快速转换，争取把比赛变成高强度对抗。",
+        strengths: ["身体对抗", "反击速度", "禁区冲击"],
+        risks: ["控球质量", "防线距离", "被连续压迫"]
+      }
+    ],
+    coachView: "葡萄牙需要尽早把控球转化为禁区触球。刚果民主共和国若能拖住比分，后段反击和定位球会提高爆冷概率。",
+    keyPlayers: [
+      { name: "Cristiano Ronaldo", team: "葡萄牙", role: "前锋", note: "禁区终结和牵制仍有价值。" },
+      { name: "Bruno Fernandes", team: "葡萄牙", role: "中场", note: "最后一传和前插射门核心。" },
+      { name: "Bernardo Silva", team: "葡萄牙", role: "中场", note: "小空间控球和节奏变化关键。" },
+      { name: "Yoane Wissa", team: "刚果民主共和国", role: "前锋", note: "反击冲刺和禁区终结威胁。" }
+    ]
+  },
+  {
+    id: "england-croatia",
+    href: "matches/england-croatia.html",
+    title: "英格兰 vs 克罗地亚",
+    group: "L 组",
+    date: "2026-06-17",
+    time: "次日 04:00",
+    venue: "AT&T Stadium",
+    actual: {
+      status: "已结束",
+      score: "待核实",
+      updatedAt: "赛程源显示已结束，终场比分待核实"
+    },
+    prediction: {
+      tendency: "英格兰小胜或平局",
+      scoreLean: "2-1 / 1-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "英格兰纸面深度更强，克罗地亚中场经验会让比赛非常胶着。",
+    teams: [
+      {
+        name: "英格兰",
+        label: "阵容厚度",
+        summary: "英格兰前场选择更多，Kane、Bellingham 和 Saka 能在不同区域制造持续威胁。",
+        strengths: ["前场深度", "定位球", "中场前插", "边路爆点"],
+        risks: ["大赛压力", "中场控制稳定性", "被拖入慢节奏"]
+      },
+      {
+        name: "克罗地亚",
+        label: "经验控场",
+        summary: "克罗地亚中场经验和比赛管理能力极强，适合用控球节奏削弱英格兰冲击力。",
+        strengths: ["中场经验", "控球耐心", "定位球", "大赛心态"],
+        risks: ["防线速度", "体能后段", "禁区保护"]
+      }
+    ],
+    coachView: "英格兰优势在速度和厚度，克罗地亚优势在节奏管理。若英格兰不能早早提速，这场会向低比分甚至平局靠近。",
+    keyPlayers: [
+      { name: "Harry Kane", team: "英格兰", role: "前锋", note: "支点和终结能力决定进攻效率。" },
+      { name: "Jude Bellingham", team: "英格兰", role: "中场", note: "前插和禁区二点球是关键。" },
+      { name: "Luka Modric", team: "克罗地亚", role: "中场", note: "控制节奏和转移方向核心。" },
+      { name: "Josko Gvardiol", team: "克罗地亚", role: "后卫", note: "防线推进和边路保护重要。" }
+    ]
+  },
+  {
+    id: "ghana-panama",
+    href: "matches/ghana-panama.html",
+    title: "加纳 vs 巴拿马",
+    group: "L 组",
+    date: "2026-06-17",
+    time: "次日 07:00",
+    venue: "Philadelphia Stadium",
+    actual: {
+      status: "进行中",
+      score: "加纳 0-0 巴拿马",
+      updatedAt: "2026-06-18 00:43 UTC"
+    },
+    prediction: {
+      tendency: "加纳小胜",
+      scoreLean: "1-0 / 2-1",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "加纳前场个人能力更强，巴拿马会把比赛拖进低比分对抗。",
+    teams: [
+      {
+        name: "加纳",
+        label: "前场冲击",
+        summary: "加纳拥有更好的前场速度和对抗能力，适合用边路推进和二点球持续压迫巴拿马。",
+        strengths: ["前场速度", "身体对抗", "二点球", "边路推进"],
+        risks: ["进攻耐心", "防反身后", "终结效率"]
+      },
+      {
+        name: "巴拿马",
+        label: "纪律防守",
+        summary: "巴拿马需要保持阵型紧凑，用定位球和快速直传争取有限机会。",
+        strengths: ["防守纪律", "定位球", "身体对抗"],
+        risks: ["控球不足", "边路回追", "禁区受压"]
+      }
+    ],
+    coachView: "加纳胜面略高，但如果迟迟打不开局面，巴拿马有能力把比赛压到一球胜负。定位球会影响走势。",
+    keyPlayers: [
+      { name: "Mohammed Kudus", team: "加纳", role: "攻击手", note: "持球突破和最后一脚最具威胁。" },
+      { name: "Thomas Partey", team: "加纳", role: "中场", note: "二点球控制和中路保护关键。" },
+      { name: "Inaki Williams", team: "加纳", role: "前锋", note: "纵深冲刺能压缩对手防线。" },
+      { name: "Edgar Barcenas", team: "巴拿马", role: "边锋", note: "反击推进和定位球处理核心。" }
+    ]
+  },
+  {
+    id: "uzbekistan-colombia",
+    href: "matches/uzbekistan-colombia.html",
+    title: "乌兹别克斯坦 vs 哥伦比亚",
+    group: "K 组",
+    date: "2026-06-17",
+    time: "次日 10:00",
+    venue: "Seattle Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "哥伦比亚小胜",
+      scoreLean: "0-1 / 1-2",
+      recordedAt: "2026-06-18 00:43 UTC"
+    },
+    headline: "哥伦比亚边路质量更高，乌兹别克斯坦首秀要先稳住中路。",
+    teams: [
+      {
+        name: "乌兹别克斯坦",
+        label: "首秀纪律",
+        summary: "乌兹别克斯坦需要保持中后场距离，用 Shomurodov 的支点和反击第一脚寻找机会。",
+        strengths: ["防守纪律", "支点反击", "团队执行"],
+        risks: ["大赛经验", "边路防守", "被持续压迫"]
+      },
+      {
+        name: "哥伦比亚",
+        label: "边路爆点",
+        summary: "哥伦比亚个人能力和边路推进更强，Luis Diaz 的突破会持续考验乌兹别克斯坦防线。",
+        strengths: ["边路一对一", "中前场技术", "反抢质量", "定位球"],
+        risks: ["防反身后", "进攻效率", "情绪犯规"]
+      }
+    ],
+    coachView: "哥伦比亚优势更明显，但需要避免被首秀球队的纪律性拖慢。若乌兹别克斯坦守住前段，比赛可能变成低比分。",
+    keyPlayers: [
+      { name: "Eldor Shomurodov", team: "乌兹别克斯坦", role: "前锋", note: "前场支点和反击终结核心。" },
+      { name: "Abbosbek Fayzullaev", team: "乌兹别克斯坦", role: "中场", note: "推进和最后一传需要提供变化。" },
+      { name: "Luis Diaz", team: "哥伦比亚", role: "边锋", note: "左路突破是最大优势。" },
+      { name: "James Rodriguez", team: "哥伦比亚", role: "中场", note: "定位球和斜传能改变比赛方向。" }
     ]
   }
 ];
