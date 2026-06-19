@@ -1,6 +1,6 @@
 export const reportMeta = {
-  generatedAt: "2026-06-19 08:10 UTC",
-  dateLabel: "2026-06-19",
+  generatedAt: "2026-06-19 08:35 UTC",
+  dateLabel: "2026-06-20",
   timezone: "北京时间",
   group: "A / B / C / D / E / F / G / H / I / J / K / L 组"
 };
@@ -1258,6 +1258,178 @@ export const matches = [
       { name: "Edson Alvarez", team: "墨西哥", role: "中场", note: "中路保护和对抗让韩国速度降档。" },
       { name: "Son Heung-min", team: "韩国", role: "前锋", note: "韩国最直接的转换威胁。" },
       { name: "Kim Min-jae", team: "韩国", role: "中卫", note: "限制墨西哥禁区触球的关键。" }
+    ]
+  },
+  {
+    id: "usa-australia",
+    href: "matches/usa-australia.html",
+    title: "美国 vs 澳大利亚",
+    group: "D 组",
+    date: "2026-06-19",
+    time: "次日 03:00",
+    venue: "Seattle Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "美国小胜",
+      scoreLean: "2-1 / 1-0",
+      recordedAt: "2026-06-19 08:35 UTC"
+    },
+    headline: "美国主场与前场速度占优，但澳大利亚的定位球和对抗会把比赛拉硬。",
+    teams: [
+      {
+        name: "美国",
+        label: "主场提速",
+        summary: "美国首战大胜后士气和净胜球都占优，Pulisic、Balogun 和中场压迫能持续冲击澳大利亚防线。",
+        strengths: ["主场环境", "前场速度", "高位压迫", "阵容深度"],
+        risks: ["定位球防守", "领先后空间", "面对高球冲击的稳定性"]
+      },
+      {
+        name: "澳大利亚",
+        label: "强硬消耗",
+        summary: "澳大利亚击败土耳其后证明了防守组织和反击效率，面对美国需要继续利用身体对抗、长传和定位球制造压力。",
+        strengths: ["身体对抗", "定位球", "防守纪律", "反击效率"],
+        risks: ["边路回追", "控球不足", "被连续压迫后的出球质量"]
+      }
+    ],
+    coachView: "美国胜面更高，但不能让比赛变成连续高球和二点球争夺。若澳大利亚先守住前 30 分钟，平局概率会明显上升。",
+    keyPlayers: [
+      { name: "Christian Pulisic", team: "美国", role: "边锋", note: "左路推进和最后一传是美国主要爆点。" },
+      { name: "Folarin Balogun", team: "美国", role: "前锋", note: "首战梅开二度后是澳大利亚重点盯防对象。" },
+      { name: "Harry Souttar", team: "澳大利亚", role: "中卫", note: "定位球攻防和禁区高点价值巨大。" },
+      { name: "Mathew Ryan", team: "澳大利亚", role: "门将", note: "需要处理美国持续射门和传中压力。" }
+    ]
+  },
+  {
+    id: "scotland-morocco",
+    href: "matches/scotland-morocco.html",
+    title: "苏格兰 vs 摩洛哥",
+    group: "C 组",
+    date: "2026-06-19",
+    time: "次日 06:00",
+    venue: "Boston Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "平局或摩洛哥小胜",
+      scoreLean: "1-1 / 0-1",
+      recordedAt: "2026-06-19 08:35 UTC"
+    },
+    headline: "苏格兰定位球和对抗稳定，摩洛哥边路质量与反击速度更有上限。",
+    teams: [
+      {
+        name: "苏格兰",
+        label: "硬度领先",
+        summary: "苏格兰首战拿到三分，McTominay 的后插上和 Robertson 的左路传中依旧是最直接的进攻来源。",
+        strengths: ["身体对抗", "定位球", "左路传中", "中场冲击"],
+        risks: ["防线身后", "控球细腻度", "被边路一对一针对"]
+      },
+      {
+        name: "摩洛哥",
+        label: "边路爆点",
+        summary: "摩洛哥逼平巴西后信心很足，Hakimi 的推进、Ziyech 的斜传和中后场纪律能让比赛进入低比分均势。",
+        strengths: ["边路推进", "防守结构", "快速反击", "大赛经验"],
+        risks: ["定位球防守", "禁区高点", "被持续身体对抗消耗"]
+      }
+    ],
+    coachView: "这场很可能是小组 C 的关键分水岭。苏格兰要把比赛变成高对抗，摩洛哥则需要用边路速度避开中路肉搏。",
+    keyPlayers: [
+      { name: "Scott McTominay", team: "苏格兰", role: "中场", note: "后插上和定位球进攻是主要得分点。" },
+      { name: "Andy Robertson", team: "苏格兰", role: "边卫", note: "左路推进和传中质量决定苏格兰进攻效率。" },
+      { name: "Achraf Hakimi", team: "摩洛哥", role: "边卫", note: "右路推进会直接考验苏格兰边路回防。" },
+      { name: "Hakim Ziyech", team: "摩洛哥", role: "攻击手", note: "斜传和定位球能改变低比分比赛。" }
+    ]
+  },
+  {
+    id: "brazil-haiti",
+    href: "matches/brazil-haiti.html",
+    title: "巴西 vs 海地",
+    group: "C 组",
+    date: "2026-06-19",
+    time: "次日 08:30",
+    venue: "Philadelphia Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "巴西取胜",
+      scoreLean: "3-0 / 3-1",
+      recordedAt: "2026-06-19 08:35 UTC"
+    },
+    headline: "巴西需要用个人能力尽快打开局面，海地只能依赖速度反击制造波动。",
+    teams: [
+      {
+        name: "巴西",
+        label: "强点压制",
+        summary: "巴西首战被摩洛哥逼平后需要三分，Vinicius、Rodrygo 和前场自由换位能持续制造一对一优势。",
+        strengths: ["边路单点", "前场技术", "反抢质量", "阵容深度"],
+        risks: ["久攻不下", "反击身后", "终结效率波动"]
+      },
+      {
+        name: "海地",
+        label: "速度反击",
+        summary: "海地首战小负苏格兰后仍保留反击威胁，Nazon 与 Pierrot 需要抓住巴西压上后的身后空间。",
+        strengths: ["前场速度", "纵向冲刺", "身体对抗"],
+        risks: ["防守密度", "控球压力", "禁区连续受压"]
+      }
+    ],
+    coachView: "巴西必须避免急躁，先用宽度拉开防线再打肋部。海地若想拿分，关键是前段不早丢球并提高反击第一脚质量。",
+    keyPlayers: [
+      { name: "Vinicius Junior", team: "巴西", role: "边锋", note: "左路爆破是巴西最稳定的破局方式。" },
+      { name: "Rodrygo", team: "巴西", role: "前锋", note: "中路游动和第二点射门会拉扯海地防线。" },
+      { name: "Bruno Guimaraes", team: "巴西", role: "中场", note: "控制二点球和反抢保护很关键。" },
+      { name: "Duckens Nazon", team: "海地", role: "前锋", note: "反击终结和背身支点是海地主要希望。" }
+    ]
+  },
+  {
+    id: "turkiye-paraguay",
+    href: "matches/turkiye-paraguay.html",
+    title: "土耳其 vs 巴拉圭",
+    group: "D 组",
+    date: "2026-06-19",
+    time: "次日 11:00",
+    venue: "San Francisco Bay Area Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "土耳其小胜或平局",
+      scoreLean: "2-1 / 1-1",
+      recordedAt: "2026-06-19 08:35 UTC"
+    },
+    headline: "两队首战都输球，土耳其创造力更好，巴拉圭会用强硬对抗拖慢节奏。",
+    teams: [
+      {
+        name: "土耳其",
+        label: "技术修正",
+        summary: "土耳其首战未能打穿澳大利亚，需要让 Calhanoglu 和 Arda Guler 更早进入前场危险区域。",
+        strengths: ["中场脚法", "远射", "前场创造力", "定位球"],
+        risks: ["防反身后", "情绪犯规", "对抗下出球稳定性"]
+      },
+      {
+        name: "巴拉圭",
+        label: "强硬反击",
+        summary: "巴拉圭首战被美国打穿后必须收紧防线，Almiron 的推进和前场身体对抗是抢分关键。",
+        strengths: ["身体对抗", "反击推进", "防守韧性", "定位球"],
+        risks: ["边路受压", "控球不足", "防线被连续拉扯"]
+      }
+    ],
+    coachView: "这是一场淘汰压力很早到来的比赛。土耳其要用技术优势控制节奏，巴拉圭则会争取把比赛变成犯规、二点球和定位球。",
+    keyPlayers: [
+      { name: "Hakan Calhanoglu", team: "土耳其", role: "中场", note: "节奏控制、远射和定位球都可能决定比赛。" },
+      { name: "Arda Guler", team: "土耳其", role: "攻击手", note: "前场创造力和小空间处理是破局点。" },
+      { name: "Kenan Yildiz", team: "土耳其", role: "前锋", note: "边中游动能拉开巴拉圭防线。" },
+      { name: "Miguel Almiron", team: "巴拉圭", role: "攻击手", note: "反击推进和前场第一脚处理最关键。" }
     ]
   }
 ];
