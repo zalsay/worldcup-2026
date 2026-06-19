@@ -30,7 +30,11 @@ export default defineConfig({
         portugalDrCongo: resolve(__dirname, "matches/portugal-dr-congo.html"),
         englandCroatia: resolve(__dirname, "matches/england-croatia.html"),
         ghanaPanama: resolve(__dirname, "matches/ghana-panama.html"),
-        uzbekistanColombia: resolve(__dirname, "matches/uzbekistan-colombia.html")
+        uzbekistanColombia: resolve(__dirname, "matches/uzbekistan-colombia.html"),
+        czechiaSouthAfrica: resolve(__dirname, "matches/czechia-south-africa.html"),
+        switzerlandBosniaHerzegovina: resolve(__dirname, "matches/switzerland-bosnia-herzegovina.html"),
+        canadaQatar: resolve(__dirname, "matches/canada-qatar.html"),
+        mexicoSouthKorea: resolve(__dirname, "matches/mexico-south-korea.html")
       }
     }
   }

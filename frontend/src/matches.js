@@ -1,19 +1,19 @@
 export const reportMeta = {
-  generatedAt: "2026-06-18 00:43 UTC",
-  dateLabel: "2026-06-18",
+  generatedAt: "2026-06-19 08:10 UTC",
+  dateLabel: "2026-06-19",
   timezone: "北京时间",
   group: "A / B / C / D / E / F / G / H / I / J / K / L 组"
 };
 
 export const standings = [
-  { group: "A 组", team: "墨西哥", points: 3, goalDiff: 2, note: "2-0 赢下揭幕战，预测命中胜负方向。" },
-  { group: "A 组", team: "韩国", points: 3, goalDiff: 1, note: "2-1 逆转捷克，速度优势和替补冲击打出效果。" },
-  { group: "A 组", team: "捷克", points: 0, goalDiff: -1, note: "首战先进后失守，定位球威胁仍有价值。" },
-  { group: "A 组", team: "南非", points: 0, goalDiff: -2, note: "揭幕战失利且吃到红牌，后续容错降低。" },
-  { group: "B 组", team: "加拿大", points: 1, goalDiff: 0, note: "1-1 战平波黑，Larin 替补进球拿到队史世界杯首分。" },
-  { group: "B 组", team: "波黑", points: 1, goalDiff: 0, note: "客场先入球后被追平，低位防守拿到一分。" },
-  { group: "B 组", team: "瑞士", points: 1, goalDiff: 0, note: "1-1 战平卡塔尔，领先后补时阶段被扳平。" },
-  { group: "B 组", team: "卡塔尔", points: 1, goalDiff: 0, note: "补时阶段制造乌龙，1-1 逼平瑞士拿到关键一分。" },
+  { group: "A 组", team: "墨西哥", points: 6, goalDiff: 3, note: "1-0 击败韩国后两战全胜，已提前锁定淘汰赛席位。" },
+  { group: "A 组", team: "韩国", points: 3, goalDiff: 0, note: "0-1 不敌墨西哥，末轮仍掌握出线主动但容错下降。" },
+  { group: "A 组", team: "捷克", points: 1, goalDiff: -1, note: "1-1 战平南非，先入球后被点球扳平，末轮必须抢分。" },
+  { group: "A 组", team: "南非", points: 1, goalDiff: -2, note: "1-1 逼平捷克保住希望，但净胜球仍是明显劣势。" },
+  { group: "B 组", team: "加拿大", points: 4, goalDiff: 6, note: "6-0 大胜卡塔尔，Jonathan David 戴帽后升至小组第一。" },
+  { group: "B 组", team: "瑞士", points: 4, goalDiff: 3, note: "4-1 击败波黑，替补火力和后段冲击帮助球队抢到关键三分。" },
+  { group: "B 组", team: "波黑", points: 1, goalDiff: -3, note: "1-4 不敌瑞士，防线后段崩盘后末轮压力很大。" },
+  { group: "B 组", team: "卡塔尔", points: 1, goalDiff: -6, note: "0-6 不敌加拿大且两人被罚下，出线形势急转直下。" },
   { group: "C 组", team: "苏格兰", points: 3, goalDiff: 1, note: "1-0 击败海地，McGinn 进球兑现定位球和对抗优势。" },
   { group: "C 组", team: "巴西", points: 1, goalDiff: 0, note: "1-1 战平摩洛哥，强点爆破有效但未能拿满三分。" },
   { group: "C 组", team: "摩洛哥", points: 1, goalDiff: 0, note: "1-1 逼平巴西，防守韧性和反击质量得到验证。" },
@@ -46,14 +46,14 @@ export const standings = [
   { group: "J 组", team: "奥地利", points: 3, goalDiff: 2, note: "3-1 击败约旦，中场压迫和前场转化效率占优。" },
   { group: "J 组", team: "约旦", points: 0, goalDiff: -2, note: "1-3 不敌奥地利，首次世界杯亮相仍展现反击韧性。" },
   { group: "J 组", team: "阿尔及利亚", points: 0, goalDiff: -3, note: "0-3 不敌阿根廷，后续需要提高出球稳定性。" },
-  { group: "K 组", team: "葡萄牙", points: 0, goalDiff: 0, note: "对阵刚果民主共和国已结束，终场比分待核实后再计入积分。" },
-  { group: "K 组", team: "刚果民主共和国", points: 0, goalDiff: 0, note: "首战对葡萄牙的比分待核实，暂不更新积分。" },
-  { group: "K 组", team: "乌兹别克斯坦", points: 0, goalDiff: 0, note: "北京时间 6 月 18 日对阵哥伦比亚，首秀重点是中路保护和反击质量。" },
-  { group: "K 组", team: "哥伦比亚", points: 0, goalDiff: 0, note: "面对乌兹别克斯坦需要利用 Luis Diaz 的边路爆点打开局面。" },
-  { group: "L 组", team: "英格兰", points: 0, goalDiff: 0, note: "对阵克罗地亚已结束，终场比分待核实后再计入积分。" },
-  { group: "L 组", team: "克罗地亚", points: 0, goalDiff: 0, note: "首战对英格兰的比分待核实，暂不更新积分。" },
-  { group: "L 组", team: "加纳", points: 0, goalDiff: 0, note: "对巴拿马进行中，实时比分暂为 0-0。" },
-  { group: "L 组", team: "巴拿马", points: 0, goalDiff: 0, note: "对加纳进行中，低位防守和定位球是主要拿分路径。" }
+  { group: "K 组", team: "哥伦比亚", points: 3, goalDiff: 2, note: "3-1 击败乌兹别克斯坦，边路质量和后段终结建立领跑优势。" },
+  { group: "K 组", team: "葡萄牙", points: 1, goalDiff: 0, note: "1-1 被刚果民主共和国逼平，首战控场优势没有转化为三分。" },
+  { group: "K 组", team: "刚果民主共和国", points: 1, goalDiff: 0, note: "1-1 战平葡萄牙，世界杯回归首战拿到关键积分。" },
+  { group: "K 组", team: "乌兹别克斯坦", points: 0, goalDiff: -2, note: "1-3 不敌哥伦比亚，取得队史世界杯首球但防线承压明显。" },
+  { group: "L 组", team: "英格兰", points: 3, goalDiff: 2, note: "4-2 击败克罗地亚，Kane 与 Bellingham 带动进攻兑现深度优势。" },
+  { group: "L 组", team: "加纳", points: 3, goalDiff: 1, note: "1-0 击败巴拿马，补时绝杀拿到关键三分。" },
+  { group: "L 组", team: "巴拿马", points: 0, goalDiff: -1, note: "0-1 不敌加纳，防守坚持到补时后被绝杀。" },
+  { group: "L 组", team: "克罗地亚", points: 0, goalDiff: -2, note: "2-4 不敌英格兰，进攻回应有效但防线后段失守。" }
 ];
 
 export const matches = [
@@ -926,8 +926,8 @@ export const matches = [
     venue: "BMO Field",
     actual: {
       status: "已结束",
-      score: "待核实",
-      updatedAt: "赛程源显示已结束，终场比分待核实"
+      score: "葡萄牙 1-1 刚果民主共和国",
+      updatedAt: "2026-06-19 08:10 UTC"
     },
     prediction: {
       tendency: "葡萄牙取胜",
@@ -969,8 +969,8 @@ export const matches = [
     venue: "AT&T Stadium",
     actual: {
       status: "已结束",
-      score: "待核实",
-      updatedAt: "赛程源显示已结束，终场比分待核实"
+      score: "英格兰 4-2 克罗地亚",
+      updatedAt: "2026-06-19 08:10 UTC"
     },
     prediction: {
       tendency: "英格兰小胜或平局",
@@ -1011,9 +1011,9 @@ export const matches = [
     time: "次日 07:00",
     venue: "Philadelphia Stadium",
     actual: {
-      status: "进行中",
-      score: "加纳 0-0 巴拿马",
-      updatedAt: "2026-06-18 00:43 UTC"
+      status: "已结束",
+      score: "加纳 1-0 巴拿马",
+      updatedAt: "2026-06-19 08:10 UTC"
     },
     prediction: {
       tendency: "加纳小胜",
@@ -1054,9 +1054,9 @@ export const matches = [
     time: "次日 10:00",
     venue: "Seattle Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "乌兹别克斯坦 1-3 哥伦比亚",
+      updatedAt: "2026-06-19 08:10 UTC"
     },
     prediction: {
       tendency: "哥伦比亚小胜",
@@ -1086,6 +1086,178 @@ export const matches = [
       { name: "Abbosbek Fayzullaev", team: "乌兹别克斯坦", role: "中场", note: "推进和最后一传需要提供变化。" },
       { name: "Luis Diaz", team: "哥伦比亚", role: "边锋", note: "左路突破是最大优势。" },
       { name: "James Rodriguez", team: "哥伦比亚", role: "中场", note: "定位球和斜传能改变比赛方向。" }
+    ]
+  },
+  {
+    id: "czechia-south-africa",
+    href: "matches/czechia-south-africa.html",
+    title: "捷克 vs 南非",
+    group: "A 组",
+    date: "2026-06-18",
+    time: "次日 00:00",
+    venue: "Los Angeles Stadium",
+    actual: {
+      status: "已结束",
+      score: "捷克 1-1 南非",
+      updatedAt: "2026-06-19 08:10 UTC"
+    },
+    prediction: {
+      tendency: "捷克不败",
+      scoreLean: "1-0 / 1-1",
+      recordedAt: "2026-06-19 08:10 UTC"
+    },
+    headline: "捷克需要定位球兑现优势，南非用速度和点球保住出线希望。",
+    teams: [
+      {
+        name: "捷克",
+        label: "高点压制",
+        summary: "捷克仍会围绕 Soucek、Schick 的高点和禁区冲击组织进攻，重点是减少领先后的防线回收失误。",
+        strengths: ["空中球", "二点球", "定位球", "禁区终结"],
+        risks: ["回追速度", "领先后的保守", "边路身后空间"]
+      },
+      {
+        name: "南非",
+        label: "反击韧性",
+        summary: "南非首战失利后更需要抢分，快速转换和禁区冲击是撬开捷克防线的主要路径。",
+        strengths: ["转换速度", "身体对抗", "边路推进"],
+        risks: ["控球稳定性", "定位球防守", "净胜球压力"]
+      }
+    ],
+    coachView: "这场平局对南非更有价值。捷克如果不能把定位球优势转化为第二球，比赛会被南非的速度和身体对抗拖回均势。",
+    keyPlayers: [
+      { name: "Patrik Schick", team: "捷克", role: "前锋", note: "捷克最稳定的禁区终结点。" },
+      { name: "Tomas Soucek", team: "捷克", role: "中场", note: "后插上和高球争顶是核心武器。" },
+      { name: "Percy Tau", team: "南非", role: "攻击手", note: "反击第一脚和禁区前处理很关键。" },
+      { name: "Teboho Mokoena", team: "南非", role: "中场", note: "中路覆盖和远射能改变比赛节奏。" }
+    ]
+  },
+  {
+    id: "switzerland-bosnia-herzegovina",
+    href: "matches/switzerland-bosnia-herzegovina.html",
+    title: "瑞士 vs 波黑",
+    group: "B 组",
+    date: "2026-06-18",
+    time: "次日 03:00",
+    venue: "Levi's Stadium",
+    actual: {
+      status: "已结束",
+      score: "瑞士 4-1 波黑",
+      updatedAt: "2026-06-19 08:10 UTC"
+    },
+    prediction: {
+      tendency: "瑞士小胜",
+      scoreLean: "1-0 / 2-1",
+      recordedAt: "2026-06-19 08:10 UTC"
+    },
+    headline: "瑞士整体性和替补深度兑现优势，波黑后段防线被连续打穿。",
+    teams: [
+      {
+        name: "瑞士",
+        label: "稳定控场",
+        summary: "瑞士中后场结构更成熟，适合通过耐心转移、二点球和替补速度持续压迫波黑。",
+        strengths: ["中场平衡", "防守纪律", "替补深度", "定位球"],
+        risks: ["领先后回收", "边路身后", "终结效率"]
+      },
+      {
+        name: "波黑",
+        label: "支点反击",
+        summary: "波黑需要依赖 Dzeko 的支点、Demirovic 的移动和定位球来提高进攻质量，防线体能是最大隐患。",
+        strengths: ["身体对抗", "禁区支点", "定位球"],
+        risks: ["防线速度", "客场压力", "后段体能"]
+      }
+    ],
+    coachView: "瑞士的比赛管理更成熟，若前段能控制波黑的支点，后段替补冲击会放大优势。波黑必须避免被连续压在禁区前。",
+    keyPlayers: [
+      { name: "Granit Xhaka", team: "瑞士", role: "中场", note: "节奏控制和长传转移核心。" },
+      { name: "Breel Embolo", team: "瑞士", role: "前锋", note: "冲击禁区和背身支点重要。" },
+      { name: "Edin Dzeko", team: "波黑", role: "前锋", note: "禁区经验和做球仍是主要威胁。" },
+      { name: "Ermedin Demirovic", team: "波黑", role: "前锋", note: "移动接应决定反击质量。" }
+    ]
+  },
+  {
+    id: "canada-qatar",
+    href: "matches/canada-qatar.html",
+    title: "加拿大 vs 卡塔尔",
+    group: "B 组",
+    date: "2026-06-18",
+    time: "次日 06:00",
+    venue: "Toronto Stadium",
+    actual: {
+      status: "已结束",
+      score: "加拿大 6-0 卡塔尔",
+      updatedAt: "2026-06-19 08:10 UTC"
+    },
+    prediction: {
+      tendency: "加拿大取胜",
+      scoreLean: "2-0 / 2-1",
+      recordedAt: "2026-06-19 08:10 UTC"
+    },
+    headline: "加拿大主场火力全面爆发，Jonathan David 戴帽把小组形势打明朗。",
+    teams: [
+      {
+        name: "加拿大",
+        label: "主场冲击",
+        summary: "加拿大的速度、前场压迫和禁区终结都明显占优，主场环境进一步放大了进攻连续性。",
+        strengths: ["主场气势", "前场速度", "禁区终结", "反抢质量"],
+        risks: ["领先后专注度", "后腰保护", "边路回追"]
+      },
+      {
+        name: "卡塔尔",
+        label: "低位求稳",
+        summary: "卡塔尔原本需要压缩空间并依赖 Afif 与 Almoez Ali 的连线，但红牌和转换防守问题让比赛迅速失控。",
+        strengths: ["前场连线", "反击第一脚", "定位球"],
+        risks: ["防线速度", "纪律风险", "身体对抗"]
+      }
+    ],
+    coachView: "加拿大把比赛带入高节奏后优势非常明显。卡塔尔两张红牌让防守结构崩塌，末轮需要先修复纪律和禁区保护。",
+    keyPlayers: [
+      { name: "Jonathan David", team: "加拿大", role: "前锋", note: "帽子戏法确认加拿大最稳定终结点。" },
+      { name: "Cyle Larin", team: "加拿大", role: "前锋", note: "禁区牵制和第二点补射价值明显。" },
+      { name: "Akram Afif", team: "卡塔尔", role: "边锋", note: "反击推进仍是卡塔尔主要创造源。" },
+      { name: "Almoez Ali", team: "卡塔尔", role: "前锋", note: "需要在低机会场景提高终结效率。" }
+    ]
+  },
+  {
+    id: "mexico-south-korea",
+    href: "matches/mexico-south-korea.html",
+    title: "墨西哥 vs 韩国",
+    group: "A 组",
+    date: "2026-06-18",
+    time: "次日 09:00",
+    venue: "Mexico City Stadium",
+    actual: {
+      status: "已结束",
+      score: "墨西哥 1-0 韩国",
+      updatedAt: "2026-06-19 08:10 UTC"
+    },
+    prediction: {
+      tendency: "墨西哥小胜或平局",
+      scoreLean: "1-0 / 1-1",
+      recordedAt: "2026-06-19 08:10 UTC"
+    },
+    headline: "墨西哥用主场节奏和防守控制拿下韩国，提前锁定出线。",
+    teams: [
+      {
+        name: "墨西哥",
+        label: "主场控制",
+        summary: "墨西哥连续两场完成低失球控制，边路推进和中场压迫让韩国很难持续打出速度优势。",
+        strengths: ["主场环境", "控场经验", "边路推进", "防守距离"],
+        risks: ["终结效率", "领先后回收", "定位球防守"]
+      },
+      {
+        name: "韩国",
+        label: "速度反击",
+        summary: "韩国仍具备 Son Heung-min 和 Hwang Hee-chan 的纵深威胁，但面对墨西哥主场压迫时中场出球质量不足。",
+        strengths: ["前场速度", "反击质量", "中卫个人能力"],
+        risks: ["中场控制", "边路回追", "定位球防守"]
+      }
+    ],
+    coachView: "墨西哥赢在比赛管理和主场强度。韩国末轮仍有出线机会，但需要提升中场推进效率，不能只依赖前场单点冲刺。",
+    keyPlayers: [
+      { name: "Santiago Gimenez", team: "墨西哥", role: "前锋", note: "禁区跑动和终结继续提供威胁。" },
+      { name: "Edson Alvarez", team: "墨西哥", role: "中场", note: "中路保护和对抗让韩国速度降档。" },
+      { name: "Son Heung-min", team: "韩国", role: "前锋", note: "韩国最直接的转换威胁。" },
+      { name: "Kim Min-jae", team: "韩国", role: "中卫", note: "限制墨西哥禁区触球的关键。" }
     ]
   }
 ];
