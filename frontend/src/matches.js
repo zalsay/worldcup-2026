@@ -1,6 +1,6 @@
 export const reportMeta = {
-  generatedAt: "2026-06-19 08:35 UTC",
-  dateLabel: "2026-06-20",
+  generatedAt: "2026-06-20 13:00 UTC",
+  dateLabel: "2026-06-21",
   timezone: "北京时间",
   group: "A / B / C / D / E / F / G / H / I / J / K / L 组"
 };
@@ -14,14 +14,14 @@ export const standings = [
   { group: "B 组", team: "瑞士", points: 4, goalDiff: 3, note: "4-1 击败波黑，替补火力和后段冲击帮助球队抢到关键三分。" },
   { group: "B 组", team: "波黑", points: 1, goalDiff: -3, note: "1-4 不敌瑞士，防线后段崩盘后末轮压力很大。" },
   { group: "B 组", team: "卡塔尔", points: 1, goalDiff: -6, note: "0-6 不敌加拿大且两人被罚下，出线形势急转直下。" },
-  { group: "C 组", team: "苏格兰", points: 3, goalDiff: 1, note: "1-0 击败海地，McGinn 进球兑现定位球和对抗优势。" },
-  { group: "C 组", team: "巴西", points: 1, goalDiff: 0, note: "1-1 战平摩洛哥，强点爆破有效但未能拿满三分。" },
-  { group: "C 组", team: "摩洛哥", points: 1, goalDiff: 0, note: "1-1 逼平巴西，防守韧性和反击质量得到验证。" },
-  { group: "C 组", team: "海地", points: 0, goalDiff: -1, note: "0-1 不敌苏格兰，反击有威胁但终结效率不足。" },
-  { group: "D 组", team: "美国", points: 3, goalDiff: 3, note: "4-1 大胜巴拉圭，Balogun 梅开二度。" },
-  { group: "D 组", team: "澳大利亚", points: 3, goalDiff: 2, note: "2-0 击败土耳其，防守组织和反击效率都超过预期。" },
-  { group: "D 组", team: "土耳其", points: 0, goalDiff: -2, note: "0-2 不敌澳大利亚，中前场创造力未能转化为得分。" },
-  { group: "D 组", team: "巴拉圭", points: 0, goalDiff: -3, note: "1-4 不敌美国，防线被持续冲击。" },
+  { group: "C 组", team: "巴西", points: 4, goalDiff: 3, note: "3-0 击败海地后升至小组前列，边路爆点和反抢质量回到正常水准。" },
+  { group: "C 组", team: "摩洛哥", points: 4, goalDiff: 1, note: "1-0 击败苏格兰，两轮不败后出线主动权很稳。" },
+  { group: "C 组", team: "苏格兰", points: 3, goalDiff: 0, note: "0-1 不敌摩洛哥，末轮仍有机会但必须提高阵地战创造力。" },
+  { group: "C 组", team: "海地", points: 0, goalDiff: -4, note: "0-3 不敌巴西，两连败后出线希望非常有限。" },
+  { group: "D 组", team: "美国", points: 6, goalDiff: 5, note: "2-0 击败澳大利亚后两战全胜，基本锁定淘汰赛席位。" },
+  { group: "D 组", team: "澳大利亚", points: 3, goalDiff: 0, note: "0-2 不敌美国，仍有三分在手但末轮压力上升。" },
+  { group: "D 组", team: "巴拉圭", points: 3, goalDiff: -2, note: "1-0 击败土耳其抢回出线希望，末轮仍需争取净胜球。" },
+  { group: "D 组", team: "土耳其", points: 0, goalDiff: -3, note: "0-1 不敌巴拉圭后两连败，晋级形势已经非常被动。" },
   { group: "E 组", team: "德国", points: 3, goalDiff: 6, note: "7-1 大胜库拉索，进攻火力和定位球优势全面释放。" },
   { group: "E 组", team: "科特迪瓦", points: 3, goalDiff: 1, note: "1-0 击败厄瓜多尔，Amad Diallo 终场前完成制胜。" },
   { group: "E 组", team: "厄瓜多尔", points: 0, goalDiff: -1, note: "0-1 不敌科特迪瓦，上半场机会不少但终结不足。" },
@@ -1269,9 +1269,9 @@ export const matches = [
     time: "次日 03:00",
     venue: "Seattle Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "美国 2-0 澳大利亚",
+      updatedAt: "2026-06-20 13:00 UTC"
     },
     prediction: {
       tendency: "美国小胜",
@@ -1312,9 +1312,9 @@ export const matches = [
     time: "次日 06:00",
     venue: "Boston Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "苏格兰 0-1 摩洛哥",
+      updatedAt: "2026-06-20 13:00 UTC"
     },
     prediction: {
       tendency: "平局或摩洛哥小胜",
@@ -1355,9 +1355,9 @@ export const matches = [
     time: "次日 08:30",
     venue: "Philadelphia Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "巴西 3-0 海地",
+      updatedAt: "2026-06-20 13:00 UTC"
     },
     prediction: {
       tendency: "巴西取胜",
@@ -1398,9 +1398,9 @@ export const matches = [
     time: "次日 11:00",
     venue: "San Francisco Bay Area Stadium",
     actual: {
-      status: "未开始",
-      score: "待更新",
-      updatedAt: ""
+      status: "已结束",
+      score: "土耳其 0-1 巴拉圭",
+      updatedAt: "2026-06-20 13:00 UTC"
     },
     prediction: {
       tendency: "土耳其小胜或平局",
@@ -1430,6 +1430,178 @@ export const matches = [
       { name: "Arda Guler", team: "土耳其", role: "攻击手", note: "前场创造力和小空间处理是破局点。" },
       { name: "Kenan Yildiz", team: "土耳其", role: "前锋", note: "边中游动能拉开巴拉圭防线。" },
       { name: "Miguel Almiron", team: "巴拉圭", role: "攻击手", note: "反击推进和前场第一脚处理最关键。" }
+    ]
+  },
+  {
+    id: "netherlands-sweden",
+    href: "matches/netherlands-sweden.html",
+    title: "荷兰 vs 瑞典",
+    group: "F 组",
+    date: "2026-06-20",
+    time: "次日 01:00",
+    venue: "Houston Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "平局或瑞典小胜",
+      scoreLean: "1-1 / 1-2",
+      recordedAt: "2026-06-20 13:00 UTC"
+    },
+    headline: "荷兰需要修复防线稳定性，瑞典双前锋状态正热，比赛会很开放。",
+    teams: [
+      {
+        name: "荷兰",
+        label: "控球修正",
+        summary: "荷兰首战两度领先却被日本逼平，关键是减少边翼卫身后空间，同时让 De Jong 更稳定地把球推进到前场。",
+        strengths: ["中卫出球", "边路宽度", "身体对抗", "前场纵深"],
+        risks: ["防线专注度", "转换保护", "被双前锋压制二点球"]
+      },
+      {
+        name: "瑞典",
+        label: "锋线冲击",
+        summary: "瑞典 5-1 大胜突尼斯后锋线信心很高，Isak 与 Gyokeres 能用跑动、背身和终结持续冲击荷兰中卫。",
+        strengths: ["锋线终结", "空中球", "二点球", "定位球"],
+        risks: ["控球耐心", "防守横移", "被荷兰边路连续压制"]
+      }
+    ],
+    coachView: "荷兰纸面控制力更好，但瑞典现在更像状态占优的一方。若荷兰无法限制瑞典双前锋的第一点和第二点，比赛会向高比分倾斜。",
+    keyPlayers: [
+      { name: "Frenkie de Jong", team: "荷兰", role: "中场", note: "摆脱压迫和向前推进是荷兰控场核心。" },
+      { name: "Virgil van Dijk", team: "荷兰", role: "中卫", note: "需要处理瑞典双前锋的高球和冲刺。" },
+      { name: "Alexander Isak", team: "瑞典", role: "前锋", note: "禁区内外终结和牵制是最大威胁。" },
+      { name: "Viktor Gyokeres", team: "瑞典", role: "前锋", note: "背身、冲击和对抗能持续消耗荷兰防线。" }
+    ]
+  },
+  {
+    id: "germany-cote-divoire",
+    href: "matches/germany-cote-divoire.html",
+    title: "德国 vs 科特迪瓦",
+    group: "E 组",
+    date: "2026-06-20",
+    time: "次日 04:00",
+    venue: "Toronto Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "德国小胜",
+      scoreLean: "2-1 / 2-0",
+      recordedAt: "2026-06-20 13:00 UTC"
+    },
+    headline: "德国火力和控场优势明显，但科特迪瓦的身体冲击会考验攻守转换。",
+    teams: [
+      {
+        name: "德国",
+        label: "压迫控场",
+        summary: "德国首战 7-1 大胜，Musiala 与 Wirtz 的肋部创造力很强，需要避免在大胜后防线压得过高。",
+        strengths: ["中场控制", "前场压迫", "肋部创造", "阵容深度"],
+        risks: ["防线身后", "转换防守", "大胜后的节奏松动"]
+      },
+      {
+        name: "科特迪瓦",
+        label: "身体反击",
+        summary: "科特迪瓦首战击败厄瓜多尔，边路速度和中场对抗都具备制造冷门的基础。",
+        strengths: ["身体对抗", "边路速度", "定位球", "反击冲刺"],
+        risks: ["被德国连续压迫", "中路出球", "禁区保护"]
+      }
+    ],
+    coachView: "德国胜面更高，但不能把比赛踢成开放对冲。科特迪瓦若能用身体对抗破坏德国节奏，会让比赛长时间保持悬念。",
+    keyPlayers: [
+      { name: "Jamal Musiala", team: "德国", role: "攻击手", note: "肋部突破和小空间摆脱是主要破局方式。" },
+      { name: "Florian Wirtz", team: "德国", role: "中场", note: "最后一传和节奏变化决定进攻质量。" },
+      { name: "Franck Kessie", team: "科特迪瓦", role: "中场", note: "对抗、推进和后插上能制造德国防线压力。" },
+      { name: "Simon Adingra", team: "科特迪瓦", role: "边锋", note: "边路一对一和反击推进是关键威胁。" }
+    ]
+  },
+  {
+    id: "ecuador-curacao",
+    href: "matches/ecuador-curacao.html",
+    title: "厄瓜多尔 vs 库拉索",
+    group: "E 组",
+    date: "2026-06-20",
+    time: "次日 08:00",
+    venue: "Kansas City Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "厄瓜多尔取胜",
+      scoreLean: "2-0 / 3-1",
+      recordedAt: "2026-06-20 13:00 UTC"
+    },
+    headline: "厄瓜多尔需要用高强度压迫抢回主动，库拉索首要任务是避免早段失守。",
+    teams: [
+      {
+        name: "厄瓜多尔",
+        label: "机动压迫",
+        summary: "厄瓜多尔首战一球小负，需要依靠 Caicedo 的覆盖和边路推进把比赛压到库拉索半场。",
+        strengths: ["中场覆盖", "高位压迫", "边路推进", "身体机动性"],
+        risks: ["终结效率", "久攻不下", "被反击打身后"]
+      },
+      {
+        name: "库拉索",
+        label: "低位求生",
+        summary: "库拉索首战被德国打进 7 球，防线距离和禁区保护必须先修复，再寻找反击第一脚。",
+        strengths: ["反击速度", "首秀进球后的信心", "定位球"],
+        risks: ["防线承压", "控球不足", "体能消耗"]
+      }
+    ],
+    coachView: "厄瓜多尔必须把压迫优势转化为早段进球。库拉索若再早早丢球，比赛会迅速向两球以上差距发展。",
+    keyPlayers: [
+      { name: "Moises Caicedo", team: "厄瓜多尔", role: "中场", note: "覆盖、反抢和推进决定厄瓜多尔节奏。" },
+      { name: "Pervis Estupinan", team: "厄瓜多尔", role: "边卫", note: "左路推进和传中质量是主要武器。" },
+      { name: "Enner Valencia", team: "厄瓜多尔", role: "前锋", note: "需要把优势转化为禁区终结。" },
+      { name: "Leandro Bacuna", team: "库拉索", role: "中场", note: "反击出球和定位球质量决定有限机会。" }
+    ]
+  },
+  {
+    id: "tunisia-japan",
+    href: "matches/tunisia-japan.html",
+    title: "突尼斯 vs 日本",
+    group: "F 组",
+    date: "2026-06-20",
+    time: "次日 11:00",
+    venue: "Monterrey Stadium",
+    actual: {
+      status: "未开始",
+      score: "待更新",
+      updatedAt: ""
+    },
+    prediction: {
+      tendency: "日本小胜",
+      scoreLean: "0-1 / 1-2",
+      recordedAt: "2026-06-20 13:00 UTC"
+    },
+    headline: "日本传跑和替补冲击更有层次，突尼斯必须把比赛压成低比分。",
+    teams: [
+      {
+        name: "突尼斯",
+        label: "低位修复",
+        summary: "突尼斯首战大比分失利，面对日本需要先恢复防守密度，减少禁区前犯规和边路漏人。",
+        strengths: ["防守纪律", "身体对抗", "反击第一脚"],
+        risks: ["高空球身后", "进攻火力", "被持续传跑消耗"]
+      },
+      {
+        name: "日本",
+        label: "传跑提速",
+        summary: "日本逼平荷兰后士气很足，Kubo、Mitoma 和替补席速度能不断改变进攻方向。",
+        strengths: ["团队配合", "边路轮转", "高节奏压迫", "替补深度"],
+        risks: ["身体对抗", "高球防守", "阵地战终结效率"]
+      }
+    ],
+    coachView: "日本整体性更好，只要避免被突尼斯拖进碎片化对抗，就能持续制造机会。突尼斯想拿分，需要把比赛控制在一球以内。",
+    keyPlayers: [
+      { name: "Takefusa Kubo", team: "日本", role: "攻击手", note: "右路内切和最后一传是日本主要创造源。" },
+      { name: "Kaoru Mitoma", team: "日本", role: "边锋", note: "一对一突破能打破低位防线。" },
+      { name: "Wataru Endo", team: "日本", role: "中场", note: "控制二点球和保护反击很关键。" },
+      { name: "Ellyes Skhiri", team: "突尼斯", role: "中场", note: "中路拦截和攻守衔接决定突尼斯能否站住。" }
     ]
   }
 ];
