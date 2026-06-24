@@ -1,4 +1,4 @@
-import { matches, reportMeta, standings } from "./matches.js";
+import { matches, reportMeta, standings } from "./data.js";
 
 const isMatchPage = () => Boolean(document.querySelector("#app")?.dataset.matchId);
 const homeHref = () => (isMatchPage() ? "../index.html" : "index.html");
