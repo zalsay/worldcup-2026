@@ -42,7 +42,25 @@ export default defineConfig({
         netherlandsSweden: resolve(__dirname, "matches/netherlands-sweden.html"),
         germanyCoteDivoire: resolve(__dirname, "matches/germany-cote-divoire.html"),
         ecuadorCuracao: resolve(__dirname, "matches/ecuador-curacao.html"),
-        tunisiaJapan: resolve(__dirname, "matches/tunisia-japan.html")
+        tunisiaJapan: resolve(__dirname, "matches/tunisia-japan.html"),
+        uruguayCapeVerde: resolve(__dirname, "matches/uruguay-cape-verde.html"),
+        spainSaudiArabia: resolve(__dirname, "matches/spain-saudi-arabia.html"),
+        belgiumIran: resolve(__dirname, "matches/belgium-iran.html"),
+        newZealandEgypt: resolve(__dirname, "matches/new-zealand-egypt.html"),
+        norwaySenegal: resolve(__dirname, "matches/norway-senegal.html"),
+        franceIraq: resolve(__dirname, "matches/france-iraq.html"),
+        argentinaAustria: resolve(__dirname, "matches/argentina-austria.html"),
+        jordanAlgeria: resolve(__dirname, "matches/jordan-algeria.html"),
+        englandGhana: resolve(__dirname, "matches/england-ghana.html"),
+        panamaCroatia: resolve(__dirname, "matches/panama-croatia.html"),
+        portugalUzbekistan: resolve(__dirname, "matches/portugal-uzbekistan.html"),
+        colombiaDrCongo: resolve(__dirname, "matches/colombia-dr-congo.html"),
+        scotlandBrazil: resolve(__dirname, "matches/scotland-brazil.html"),
+        moroccoHaiti: resolve(__dirname, "matches/morocco-haiti.html"),
+        switzerlandCanada: resolve(__dirname, "matches/switzerland-canada.html"),
+        bosniaHerzegovinaQatar: resolve(__dirname, "matches/bosnia-herzegovina-qatar.html"),
+        czechiaMexico: resolve(__dirname, "matches/czechia-mexico.html"),
+        southAfricaSouthKorea: resolve(__dirname, "matches/south-africa-south-korea.html")
       }
     }
   }
