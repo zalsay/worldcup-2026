@@ -1,5 +1,5 @@
 import "./styles.css";
-import { findMatch } from "./matches.js";
+import { findMatch } from "./data.js";
 import { renderMatchPage } from "./render.js";
 
 const app = document.querySelector("#app");
