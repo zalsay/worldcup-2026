@@ -3,8 +3,8 @@ import { extraMatches } from "./extra-matches.js";
 
 export const reportMeta = {
   ...baseReportMeta,
-  generatedAt: "2026-06-26 13:00 UTC",
-  dateLabel: "2026-06-26"
+  generatedAt: "2026-06-26 13:45 UTC",
+  dateLabel: "2026-06-27"
 };
 
 export { standings };

@@ -1811,5 +1811,488 @@ export const extraMatches = [
         "note": "决定球队攻防上限的主要人物。"
       }
     ]
+  },
+  {
+    "id": "norway-france",
+    "href": "matches/norway-france.html",
+    "title": "挪威 vs 法国",
+    "group": "I 组",
+    "date": "2026-06-26",
+    "time": "次日 03:00",
+    "venue": "Gillette Stadium",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "平局或法国小胜",
+      "scoreLean": "1-1 / 1-2",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "Haaland 与 Mbappe 的头名战，法国整体深度更强，挪威终结效率足以制造拉锯。",
+    "teams": [
+      {
+        "name": "挪威",
+        "label": "锋线爆点",
+        "summary": "挪威两战全胜，Haaland 的禁区终结和 Odegaard 的最后一传是最直接威胁。",
+        "strengths": [
+          "禁区终结",
+          "直塞身后",
+          "定位球",
+          "冲刺威胁"
+        ],
+        "risks": [
+          "中场被压制",
+          "边路保护",
+          "防线速度"
+        ]
+      },
+      {
+        "name": "法国",
+        "label": "速度压制",
+        "summary": "法国同样两连胜，前场速度、阵容深度和转换质量让他们在开放比赛中更有上限。",
+        "strengths": [
+          "边路速度",
+          "阵容深度",
+          "禁区效率",
+          "反抢质量"
+        ],
+        "risks": [
+          "防 Haaland 高点",
+          "转换身后",
+          "定位球防守"
+        ]
+      }
+    ],
+    "coachView": "法国纸面更完整，但挪威的终结点足以改变比赛。若法国无法限制 Odegaard 给 Haaland 的第一脚输送，平局概率会很高。",
+    "keyPlayers": [
+      {
+        "name": "Erling Haaland",
+        "team": "挪威",
+        "role": "前锋",
+        "note": "禁区终结和高点牵制是最大变量。"
+      },
+      {
+        "name": "Martin Odegaard",
+        "team": "挪威",
+        "role": "中场",
+        "note": "决定挪威能否把球送到危险区域。"
+      },
+      {
+        "name": "Kylian Mbappe",
+        "team": "法国",
+        "role": "前锋",
+        "note": "速度和个人突破是法国最稳定爆点。"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "team": "法国",
+        "role": "攻击手",
+        "note": "串联、定位球和二点球处理关键。"
+      }
+    ]
+  },
+  {
+    "id": "senegal-iraq",
+    "href": "matches/senegal-iraq.html",
+    "title": "塞内加尔 vs 伊拉克",
+    "group": "I 组",
+    "date": "2026-06-26",
+    "time": "次日 03:00",
+    "venue": "BMO Field",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "塞内加尔取胜",
+      "scoreLean": "2-0 / 2-1",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "塞内加尔必须争胜才有小组第三希望，伊拉克需要先稳住禁区防线。",
+    "teams": [
+      {
+        "name": "塞内加尔",
+        "label": "强度反击",
+        "summary": "塞内加尔前两轮都有进球但防线失球偏多，本场会更主动压迫争取净胜球。",
+        "strengths": [
+          "身体对抗",
+          "边路速度",
+          "反击推进",
+          "定位球"
+        ],
+        "risks": [
+          "防线专注",
+          "终结效率",
+          "被反击身后"
+        ]
+      },
+      {
+        "name": "伊拉克",
+        "label": "低位求分",
+        "summary": "伊拉克连续大比分失利，首要目标是压缩中路并减少禁区前失误。",
+        "strengths": [
+          "团队纪律",
+          "定位球",
+          "前场支点"
+        ],
+        "risks": [
+          "防线承压",
+          "控球不足",
+          "边路被冲击"
+        ]
+      }
+    ],
+    "coachView": "塞内加尔胜面更高。伊拉克若能把比分拖到下半场仍接近，比赛会更焦灼；否则塞内加尔可能拉开差距。",
+    "keyPlayers": [
+      {
+        "name": "Sadio Mane",
+        "team": "塞内加尔",
+        "role": "前锋",
+        "note": "反击推进和终结决定上限。"
+      },
+      {
+        "name": "Ismaila Sarr",
+        "team": "塞内加尔",
+        "role": "边锋",
+        "note": "边路速度会持续考验伊拉克防线。"
+      },
+      {
+        "name": "Aymen Hussein",
+        "team": "伊拉克",
+        "role": "前锋",
+        "note": "支点和定位球进攻核心。"
+      },
+      {
+        "name": "Ali Jasim",
+        "team": "伊拉克",
+        "role": "攻击手",
+        "note": "反击第一脚需要提供质量。"
+      }
+    ]
+  },
+  {
+    "id": "cape-verde-saudi-arabia",
+    "href": "matches/cape-verde-saudi-arabia.html",
+    "title": "佛得角 vs 沙特",
+    "group": "H 组",
+    "date": "2026-06-26",
+    "time": "次日 08:00",
+    "venue": "NRG Stadium",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "平局或佛得角小胜",
+      "scoreLean": "1-1 / 2-1",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "佛得角连续逼平强敌后保有晋级窗口，沙特需要用反击和定位球搏命。",
+    "teams": [
+      {
+        "name": "佛得角",
+        "label": "低位韧性",
+        "summary": "佛得角两连平展现防守密度和门前韧性，本场面对沙特有机会争取历史性突破。",
+        "strengths": [
+          "防线密度",
+          "反击第一脚",
+          "定位球",
+          "心理韧性"
+        ],
+        "risks": [
+          "控球不足",
+          "被持续压迫",
+          "终结效率"
+        ]
+      },
+      {
+        "name": "沙特",
+        "label": "快速转换",
+        "summary": "沙特被西班牙大胜后净胜球受损，必须提高反击效率并避免早段失球。",
+        "strengths": [
+          "反击速度",
+          "边路推进",
+          "定位球"
+        ],
+        "risks": [
+          "禁区保护",
+          "控球抗压",
+          "防线距离"
+        ]
+      }
+    ],
+    "coachView": "佛得角状态和积分形势略好，但沙特必须抢分会让比赛更开放。先入球一方会明显掌握晋级主动。",
+    "keyPlayers": [
+      {
+        "name": "Ryan Mendes",
+        "team": "佛得角",
+        "role": "前锋",
+        "note": "反击和最后一脚是主要威胁。"
+      },
+      {
+        "name": "Jovane Cabral",
+        "team": "佛得角",
+        "role": "边锋",
+        "note": "边路一对一能制造突破口。"
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "team": "沙特",
+        "role": "边锋",
+        "note": "反击推进和个人突破核心。"
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "team": "沙特",
+        "role": "前锋",
+        "note": "需要把有限机会转化为进球。"
+      }
+    ]
+  },
+  {
+    "id": "uruguay-spain",
+    "href": "matches/uruguay-spain.html",
+    "title": "乌拉圭 vs 西班牙",
+    "group": "H 组",
+    "date": "2026-06-26",
+    "time": "次日 08:00",
+    "venue": "Estadio Akron",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "西班牙不败，偏西班牙小胜",
+      "scoreLean": "1-2 / 1-1",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "西班牙控球优势明显，乌拉圭必须用强度和定位球争取直接晋级。",
+    "teams": [
+      {
+        "name": "乌拉圭",
+        "label": "强度压制",
+        "summary": "乌拉圭两连平后需要争胜，Valverde 的推进和前场冲击会决定比赛能否打出强度。",
+        "strengths": [
+          "身体对抗",
+          "高空球",
+          "前场冲击",
+          "定位球"
+        ],
+        "risks": [
+          "控球耐心",
+          "防线伤病",
+          "领先后的管理"
+        ]
+      },
+      {
+        "name": "西班牙",
+        "label": "传控压迫",
+        "summary": "西班牙 4-0 击败沙特后回到正轨，控球、肋部配合和高位反抢是主要优势。",
+        "strengths": [
+          "控球稳定",
+          "中场轮转",
+          "高位反抢",
+          "边路推进"
+        ],
+        "risks": [
+          "防反身后",
+          "被身体对抗打断",
+          "终结波动"
+        ]
+      }
+    ],
+    "coachView": "西班牙不败更稳。乌拉圭如果把比赛拉进高对抗和定位球，能制造冷门；若进入长时间控球消耗，西班牙优势会扩大。",
+    "keyPlayers": [
+      {
+        "name": "Federico Valverde",
+        "team": "乌拉圭",
+        "role": "中场",
+        "note": "推进、远射和二点球控制核心。"
+      },
+      {
+        "name": "Darwin Nunez",
+        "team": "乌拉圭",
+        "role": "前锋",
+        "note": "冲刺和禁区终结决定乌拉圭上限。"
+      },
+      {
+        "name": "Pedri",
+        "team": "西班牙",
+        "role": "中场",
+        "note": "节奏变化和最后一传关键。"
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "西班牙",
+        "role": "边锋",
+        "note": "边路一对一能打开防线。"
+      }
+    ]
+  },
+  {
+    "id": "egypt-iran",
+    "href": "matches/egypt-iran.html",
+    "title": "埃及 vs 伊朗",
+    "group": "G 组",
+    "date": "2026-06-26",
+    "time": "次日 11:00",
+    "venue": "Lumen Field",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "平局或埃及小胜",
+      "scoreLean": "1-1 / 2-1",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "埃及暂居榜首但仍需确认排名，伊朗两连平后必须提高进攻效率。",
+    "teams": [
+      {
+        "name": "埃及",
+        "label": "边路反击",
+        "summary": "埃及击败新西兰后占据主动，Salah 和 Marmoush 的转换速度仍是最大武器。",
+        "strengths": [
+          "反击速度",
+          "边路单点",
+          "低位纪律",
+          "定位球"
+        ],
+        "risks": [
+          "控球耐心",
+          "被高球冲击",
+          "中场覆盖"
+        ]
+      },
+      {
+        "name": "伊朗",
+        "label": "支点反击",
+        "summary": "伊朗前两轮保持不败但胜场不足，本场需要 Taremi 和 Azmoun 提高禁区终结。",
+        "strengths": [
+          "身体对抗",
+          "双前锋牵制",
+          "定位球",
+          "防守韧性"
+        ],
+        "risks": [
+          "控球推进",
+          "边路防守",
+          "终结效率"
+        ]
+      }
+    ],
+    "coachView": "埃及形势更好，但伊朗的支点和定位球会制造风险。比赛大概率是一球以内差距。",
+    "keyPlayers": [
+      {
+        "name": "Mohamed Salah",
+        "team": "埃及",
+        "role": "边锋",
+        "note": "反击推进和终结是最大胜负手。"
+      },
+      {
+        "name": "Omar Marmoush",
+        "team": "埃及",
+        "role": "前锋",
+        "note": "无球冲刺能拉开伊朗防线。"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "team": "伊朗",
+        "role": "前锋",
+        "note": "背身、造犯规和禁区处理关键。"
+      },
+      {
+        "name": "Sardar Azmoun",
+        "team": "伊朗",
+        "role": "前锋",
+        "note": "冲刺和二点球攻击点。"
+      }
+    ]
+  },
+  {
+    "id": "new-zealand-belgium",
+    "href": "matches/new-zealand-belgium.html",
+    "title": "新西兰 vs 比利时",
+    "group": "G 组",
+    "date": "2026-06-26",
+    "time": "次日 11:00",
+    "venue": "BC Place",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "比利时小胜",
+      "scoreLean": "1-2 / 0-2",
+      "recordedAt": "2026-06-26 13:45 UTC"
+    },
+    "headline": "比利时两连平后必须争胜，新西兰会继续依靠高点和二点球制造压力。",
+    "teams": [
+      {
+        "name": "新西兰",
+        "label": "高点冲击",
+        "summary": "新西兰仍有机会，但需要把高空球和定位球优势转化为更高质量射门。",
+        "strengths": [
+          "空中球",
+          "二点球",
+          "防守韧性"
+        ],
+        "risks": [
+          "地面推进",
+          "回追速度",
+          "防个人突破"
+        ]
+      },
+      {
+        "name": "比利时",
+        "label": "经验控场",
+        "summary": "比利时前两场都未赢球，本场必须让 De Bruyne 的传球和 Lukaku 的支点转化为进球。",
+        "strengths": [
+          "前场创造",
+          "比赛经验",
+          "中路推进",
+          "定位球"
+        ],
+        "risks": [
+          "转换防守",
+          "终结稳定性",
+          "防高球"
+        ]
+      }
+    ],
+    "coachView": "比利时必须赢球，主动权和个人能力更强。新西兰如果早段守住，会用高球不断制造不确定性。",
+    "keyPlayers": [
+      {
+        "name": "Chris Wood",
+        "team": "新西兰",
+        "role": "前锋",
+        "note": "高空球和禁区终结核心。"
+      },
+      {
+        "name": "Liberato Cacace",
+        "team": "新西兰",
+        "role": "边卫",
+        "note": "边路推进和回防都很关键。"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "比利时",
+        "role": "中场",
+        "note": "最后一传和节奏变化核心。"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "team": "比利时",
+        "role": "前锋",
+        "note": "禁区支点和终结关键。"
+      }
+    ]
   }
 ];

@@ -66,7 +66,13 @@ export default defineConfig({
         japanSweden: resolve(__dirname, "matches/japan-sweden.html"),
         tunisiaNetherlands: resolve(__dirname, "matches/tunisia-netherlands.html"),
         turkiyeUsa: resolve(__dirname, "matches/turkiye-usa.html"),
-        paraguayAustralia: resolve(__dirname, "matches/paraguay-australia.html")
+        paraguayAustralia: resolve(__dirname, "matches/paraguay-australia.html"),
+        norwayFrance: resolve(__dirname, "matches/norway-france.html"),
+        senegalIraq: resolve(__dirname, "matches/senegal-iraq.html"),
+        capeVerdeSaudiArabia: resolve(__dirname, "matches/cape-verde-saudi-arabia.html"),
+        uruguaySpain: resolve(__dirname, "matches/uruguay-spain.html"),
+        egyptIran: resolve(__dirname, "matches/egypt-iran.html"),
+        newZealandBelgium: resolve(__dirname, "matches/new-zealand-belgium.html")
       }
     }
   }
