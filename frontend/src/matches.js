@@ -177,86 +177,86 @@ export const standings = [
   {
     "group": "G 组",
     "team": "埃及",
-    "points": 4,
+    "points": 5,
     "goalDiff": 2,
-    "note": "3-1 击败新西兰后暂列小组第一，末轮将直接影响头名归属。"
+    "note": "1-1 战平伊朗后锁定小组第二，三轮保持不败。"
   },
   {
     "group": "G 组",
     "team": "伊朗",
-    "points": 2,
+    "points": 3,
     "goalDiff": 0,
-    "note": "两连平保留出线机会，末轮需要提高终结效率。"
+    "note": "三连平收官，是否晋级取决于小组第三比较。"
   },
   {
     "group": "G 组",
     "team": "比利时",
-    "points": 2,
-    "goalDiff": 0,
-    "note": "0-0 战平伊朗后仍未打开胜局，末轮压力上升。"
+    "points": 5,
+    "goalDiff": 4,
+    "note": "5-1 大胜新西兰后凭净胜球升至 G 组第一。"
   },
   {
     "group": "G 组",
     "team": "新西兰",
     "points": 1,
-    "goalDiff": -2,
-    "note": "1-3 不敌埃及后跌至小组末位。"
+    "goalDiff": -6,
+    "note": "1-5 不敌比利时后垫底出局，防线后段承压过大。"
   },
   {
     "group": "H 组",
     "team": "西班牙",
-    "points": 4,
-    "goalDiff": 4,
-    "note": "4-0 击败沙特后升至头名，控球和压迫质量明显回升。"
+    "points": 7,
+    "goalDiff": 5,
+    "note": "1-0 击败乌拉圭后三轮零封，以 H 组头名晋级。"
   },
   {
     "group": "H 组",
     "team": "乌拉圭",
     "points": 2,
-    "goalDiff": 0,
-    "note": "2-2 战平佛得角，末轮仍需争胜确保主动权。"
+    "goalDiff": -1,
+    "note": "0-1 不敌西班牙后无缘前二，进攻端没能兑现强度优势。"
   },
   {
     "group": "H 组",
     "team": "佛得角",
-    "points": 2,
+    "points": 3,
     "goalDiff": 0,
-    "note": "连续逼平强敌，防守韧性让末轮仍有机会。"
+    "note": "0-0 战平沙特后三连平，凭稳定防守拿到第二。"
   },
   {
     "group": "H 组",
     "team": "沙特",
-    "points": 1,
+    "points": 2,
     "goalDiff": -4,
-    "note": "0-4 不敌西班牙后净胜球压力很大。"
+    "note": "末轮 0-0 战平佛得角，但净胜球劣势明显。"
   },
   {
     "group": "I 组",
     "team": "法国",
-    "points": 6,
-    "goalDiff": 5,
-    "note": "3-0 击败伊拉克，两战全胜后接近锁定出线。"
+    "points": 9,
+    "goalDiff": 8,
+    "note": "4-1 击败挪威后三战全胜，强势锁定 I 组第一。"
   },
   {
     "group": "I 组",
     "team": "挪威",
     "points": 6,
-    "goalDiff": 4,
-    "note": "3-2 击败塞内加尔后与法国同积六分，末轮争头名。"
+    "goalDiff": 1,
+    "note": "1-4 不敌法国但仍凭前两轮胜利获得小组第二。"
   },
   {
     "group": "I 组",
     "team": "塞内加尔",
-    "points": 0,
-    "goalDiff": -3,
-    "note": "两场都有进球但防线失球偏多，末轮必须争胜。"
+    "points": 3,
+    "goalDiff": 2,
+    "note": "5-0 大胜伊拉克后抢回净胜球，进入小组第三比较。"
   },
   {
     "group": "I 组",
     "team": "伊拉克",
     "points": 0,
-    "goalDiff": -6,
-    "note": "连续大比分失利，出线形势非常困难。"
+    "goalDiff": -11,
+    "note": "三战全败且末轮 0-5 失利，小组赛止步。"
   },
   {
     "group": "J 组",
