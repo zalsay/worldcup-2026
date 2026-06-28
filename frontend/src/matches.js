@@ -261,86 +261,86 @@ export const standings = [
   {
     "group": "J 组",
     "team": "阿根廷",
-    "points": 6,
-    "goalDiff": 5,
-    "note": "2-0 击败奥地利后两战全胜，头名主动权稳固。"
+    "points": 9,
+    "goalDiff": 7,
+    "note": "3-1 击败约旦后三战全胜，稳居 J 组第一。"
   },
   {
     "group": "J 组",
     "team": "奥地利",
-    "points": 3,
+    "points": 4,
     "goalDiff": 0,
-    "note": "不敌阿根廷后仍以首战胜利保留第二位置。"
+    "note": "3-3 战平阿尔及利亚后守住第二名，凭净胜球压过对手。"
   },
   {
     "group": "J 组",
     "team": "阿尔及利亚",
-    "points": 3,
-    "goalDiff": -2,
-    "note": "2-1 击败约旦后抢回竞争资格。"
+    "points": 4,
+    "goalDiff": -1,
+    "note": "末轮 3-3 战平奥地利，四分成绩进入小组第三比较。"
   },
   {
     "group": "J 组",
     "team": "约旦",
     "points": 0,
-    "goalDiff": -3,
-    "note": "两战皆败但进攻端仍有回应能力。"
+    "goalDiff": -5,
+    "note": "1-3 不敌阿根廷后三战皆败，小组赛止步。"
   },
   {
     "group": "K 组",
     "team": "哥伦比亚",
-    "points": 6,
+    "points": 7,
     "goalDiff": 3,
-    "note": "1-0 击败刚果民主共和国，两战全胜继续领跑。"
+    "note": "0-0 战平葡萄牙后三轮不败，锁定 K 组头名。"
   },
   {
     "group": "K 组",
     "team": "葡萄牙",
-    "points": 4,
+    "points": 5,
     "goalDiff": 5,
-    "note": "5-0 大胜乌兹别克斯坦后净胜球大幅提升。"
+    "note": "与哥伦比亚互交白卷后位列第二，净胜球优势明显。"
   },
   {
     "group": "K 组",
     "team": "刚果民主共和国",
-    "points": 1,
-    "goalDiff": -1,
-    "note": "小负哥伦比亚后仍需末轮抢分。"
+    "points": 4,
+    "goalDiff": 1,
+    "note": "3-1 击败乌兹别克斯坦后以四分进入小组第三比较。"
   },
   {
     "group": "K 组",
     "team": "乌兹别克斯坦",
     "points": 0,
-    "goalDiff": -7,
-    "note": "0-5 不敌葡萄牙，防线压力持续放大。"
+    "goalDiff": -9,
+    "note": "末轮 1-3 被逆转，三战全败后出局。"
   },
   {
     "group": "L 组",
     "team": "英格兰",
-    "points": 4,
-    "goalDiff": 2,
-    "note": "0-0 战平加纳后仍位居小组第一。"
+    "points": 7,
+    "goalDiff": 4,
+    "note": "2-0 击败巴拿马后以不败战绩获得 L 组第一。"
   },
   {
     "group": "L 组",
     "team": "加纳",
     "points": 4,
-    "goalDiff": 1,
-    "note": "逼平英格兰后与对手同积四分，防守纪律稳定。"
+    "goalDiff": 0,
+    "note": "1-2 不敌克罗地亚后跌至第三，仍保留小组第三比较希望。"
   },
   {
     "group": "L 组",
     "team": "克罗地亚",
-    "points": 3,
-    "goalDiff": -1,
-    "note": "1-0 击败巴拿马后重新进入出线竞争。"
+    "points": 6,
+    "goalDiff": 0,
+    "note": "2-1 击败加纳后升至第二，完成末轮反超。"
   },
   {
     "group": "L 组",
     "team": "巴拿马",
     "points": 0,
-    "goalDiff": -2,
-    "note": "两战未进球，末轮必须提高前场效率。"
+    "goalDiff": -4,
+    "note": "0-2 不敌英格兰，三战未能取得进球。"
   }
 ];
 

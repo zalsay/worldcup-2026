@@ -78,7 +78,8 @@ export default defineConfig({
         colombiaPortugal: resolve(__dirname, "matches/colombia-portugal.html"),
         drCongoUzbekistan: resolve(__dirname, "matches/dr-congo-uzbekistan.html"),
         algeriaAustria: resolve(__dirname, "matches/algeria-austria.html"),
-        jordanArgentina: resolve(__dirname, "matches/jordan-argentina.html")
+        jordanArgentina: resolve(__dirname, "matches/jordan-argentina.html"),
+        southAfricaCanada: resolve(__dirname, "matches/south-africa-canada.html")
       }
     }
   }

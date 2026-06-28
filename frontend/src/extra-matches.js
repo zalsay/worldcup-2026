@@ -2304,9 +2304,9 @@ export const extraMatches = [
     "time": "次日 05:00",
     "venue": "New York New Jersey Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "巴拿马 0-2 英格兰",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "英格兰取胜",
@@ -2384,9 +2384,9 @@ export const extraMatches = [
     "time": "次日 05:00",
     "venue": "Philadelphia Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "克罗地亚 2-1 加纳",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "平局或加纳小胜",
@@ -2465,9 +2465,9 @@ export const extraMatches = [
     "time": "次日 07:30",
     "venue": "Miami Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "哥伦比亚 0-0 葡萄牙",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "平局或葡萄牙小胜",
@@ -2546,9 +2546,9 @@ export const extraMatches = [
     "time": "次日 07:30",
     "venue": "Atlanta Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "刚果民主共和国 3-1 乌兹别克斯坦",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "刚果民主共和国小胜",
@@ -2626,9 +2626,9 @@ export const extraMatches = [
     "time": "次日 10:00",
     "venue": "Kansas City Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "阿尔及利亚 3-3 奥地利",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "平局或奥地利小胜",
@@ -2707,9 +2707,9 @@ export const extraMatches = [
     "time": "次日 10:00",
     "venue": "Dallas Stadium",
     "actual": {
-      "status": "未开始",
-      "score": "待更新",
-      "updatedAt": ""
+      "status": "已结束",
+      "score": "约旦 1-3 阿根廷",
+      "updatedAt": "2026-06-28 13:00 UTC"
     },
     "prediction": {
       "tendency": "阿根廷取胜",
@@ -2775,6 +2775,87 @@ export const extraMatches = [
         "team": "约旦",
         "role": "前锋",
         "note": "有限机会的终结点。"
+      }
+    ]
+  },
+  {
+    "id": "south-africa-canada",
+    "href": "matches/south-africa-canada.html",
+    "title": "南非 vs 加拿大",
+    "group": "32 强",
+    "date": "2026-06-28",
+    "time": "次日 03:00",
+    "venue": "SoFi Stadium",
+    "actual": {
+      "status": "未开始",
+      "score": "待更新",
+      "updatedAt": ""
+    },
+    "prediction": {
+      "tendency": "平局或加拿大小胜",
+      "scoreLean": "1-1 / 1-2",
+      "recordedAt": "2026-06-28 13:00 UTC"
+    },
+    "headline": "淘汰赛首战，南非防守韧性对上加拿大主场速度，细节和体能管理会决定晋级。",
+    "teams": [
+      {
+        "name": "南非",
+        "label": "低位韧性",
+        "summary": "南非从 A 组第二晋级，末轮击败韩国后士气很高，防守密度和反击效率是主要路径。",
+        "strengths": [
+          "防守纪律",
+          "身体对抗",
+          "反击速度",
+          "定位球"
+        ],
+        "risks": [
+          "控球创造",
+          "被持续压迫",
+          "禁区终结"
+        ]
+      },
+      {
+        "name": "加拿大",
+        "label": "主场冲刺",
+        "summary": "加拿大以 B 组第二进入淘汰赛，Jonathan David 的终结和 Davies 回归后的边路推进是关键优势。",
+        "strengths": [
+          "主场环境",
+          "前场速度",
+          "边路推进",
+          "Jonathan David 终结"
+        ],
+        "risks": [
+          "防线集中",
+          "定位球防守",
+          "中场伤病影响"
+        ]
+      }
+    ],
+    "coachView": "加拿大纸面和主场环境略占优，但南非已经证明能在低位防守中拿到结果。若加拿大早段打不开局面，比赛很可能进入一球胜负甚至加时。",
+    "keyPlayers": [
+      {
+        "name": "Percy Tau",
+        "team": "南非",
+        "role": "攻击手",
+        "note": "反击推进和最后一脚需要制造威胁。"
+      },
+      {
+        "name": "Teboho Mokoena",
+        "team": "南非",
+        "role": "中场",
+        "note": "中路覆盖和定位球质量关键。"
+      },
+      {
+        "name": "Jonathan David",
+        "team": "加拿大",
+        "role": "前锋",
+        "note": "加拿大最稳定的禁区终结点。"
+      },
+      {
+        "name": "Alphonso Davies",
+        "team": "加拿大",
+        "role": "边卫",
+        "note": "回归后能显著提升左路推进和回追。"
       }
     ]
   }
